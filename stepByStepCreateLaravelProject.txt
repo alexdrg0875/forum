@@ -19,4 +19,9 @@ add web.php
 php artisan make:auth
 make controller and view
 
+php artisan make:test ReplyTest --unit
+php artisan make:test ThreadTest --unit
+php artisan make:test ParticipateInForumTest
+in file Handler.php add in method render line "if(app()->environment() === 'testing') throw $exception;"
+
 
