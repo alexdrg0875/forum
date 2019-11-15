@@ -23,5 +23,6 @@ php artisan make:test ReplyTest --unit
 php artisan make:test ThreadTest --unit
 php artisan make:test ParticipateInForumTest
 in file Handler.php add in method render line "if(app()->environment() === 'testing') throw $exception;"
+php artisan make:test CreateThreadsTest
 
 
