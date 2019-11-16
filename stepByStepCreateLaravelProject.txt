@@ -26,6 +26,9 @@ in file Handler.php add in method render line "if(app()->environment() === 'test
 php artisan make:test CreateThreadsTest
 add to composer.json in autoload-dev - "files" : ["tests/utilites/functions.php"],  make functions.php, composer dump-autoload
 add to TestCase.php function signIn() 
+add The-Exception-Handling-Conundrum in TestCase.php
+php artisan make:model Channel -m
+
 
 
 
