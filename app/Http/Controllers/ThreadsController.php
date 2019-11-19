@@ -35,7 +35,8 @@ class ThreadsController extends Controller
      */
     public function create()
     {
-        return view('threads.create');
+        //$channels = Channel::all(); // relocate to AppServiceProvider
+        return view('threads.create', compact('channels'));
     }
 
     /**
