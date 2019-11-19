@@ -29,6 +29,8 @@ add to TestCase.php function signIn()
 add The-Exception-Handling-Conundrum in TestCase.php
 php artisan make:model Channel -m
 
+new filter in app\filters\YhreadFilters.php
+
 
 
 
