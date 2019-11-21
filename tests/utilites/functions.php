@@ -1,11 +1,11 @@
 <?php
 
-function create($class, $arrributes = [])
+function create($class, $arrributes = [], $times = null)
 {
-    return factory($class)->create($arrributes);
+    return factory($class, $times)->create($arrributes);
 }
 
-function make($class, $arrributes = [])
+function make($class, $arrributes = [], $times = null)
 {
-    return factory($class)->make($arrributes);
+    return factory($class, $times)->make($arrributes);
 }
