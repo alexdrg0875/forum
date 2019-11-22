@@ -31,6 +31,9 @@ php artisan make:model Channel -m
 
 new filter in app\filters\YhreadFilters.php
 
+php artisan make:test FavoritesTest
+php artisan make:model Favorite -mr
+
 
 
 
