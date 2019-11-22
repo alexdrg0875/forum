@@ -34,6 +34,10 @@ new filter in app\filters\YhreadFilters.php
 php artisan make:test FavoritesTest
 php artisan make:model Favorite -mr
 
+composer require barryvdh/laravel-debugbar --dev
+add loader to AppServiceProvider.php
+add cashing channels to AppServiceProvider.php
+
 
 
 
