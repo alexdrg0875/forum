@@ -8,9 +8,11 @@ class Thread extends Model
 {
     protected $guarded = [];
 
+    protected $with = ['creator', 'channel']; // add to a global scope to reduce number of sql query
+
     protected static function boot ()
     {
-                parent::boot();
+        parent::boot();
 
         static::addGlobalScope('replyCount', function ($builder) {
             $builder->withCount('replies');
@@ -24,9 +26,7 @@ class Thread extends Model
 
     public function replies()
     {
-        return $this->hasMany(Reply::class)
-            ->withCount('favorites')
-            ->with('owner');
+        return $this->hasMany(Reply::class);
     }
 
     public function creator()

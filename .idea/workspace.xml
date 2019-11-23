@@ -17,10 +17,22 @@
       <file leaf-file-name="ThreadsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="2300">
+              <caret line="127" column="27" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="27" />
               <folding>
                 <element signature="e#40#55#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <marker date="1574526151114" expanded="true" signature="2112:2193" ph="..." />
               </folding>
             </state>
           </provider>
@@ -30,19 +42,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/threads/reply.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="12" column="103" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RepliesController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RepliesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-              <folding>
-                <element signature="e#40#55#0#PHP" expanded="true" />
-              </folding>
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -62,7 +62,7 @@
       <file leaf-file-name="FavoritesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="1000">
               <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
@@ -71,11 +71,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="RepliesController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RepliesController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <folding>
+                <element signature="e#40#55#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Reply.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Reply.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="360">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -89,32 +101,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Thread.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Thread.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="200">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <file leaf-file-name="Favoritable.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Favoritable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="38" selection-end-column="11" />
-              <folding>
-                <element signature="e#33#49#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2019_11_22_162325_create_favorites_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_22_162325_create_favorites_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="413">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -149,7 +149,6 @@
         <option value="$PROJECT_DIR$/tests/Feature/ParticipateInForum.php" />
         <option value="$PROJECT_DIR$/phpunit.bat" />
         <option value="$PROJECT_DIR$/tests/Unit/ReplyTest.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/tests/utilites/function.php" />
         <option value="$PROJECT_DIR$/tests/Feature/fooTest.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
@@ -170,7 +169,6 @@
         <option value="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" />
         <option value="$PROJECT_DIR$/resources/views/threads/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Filters/Filters.php" />
-        <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/threads/index.blade.php" />
         <option value="$PROJECT_DIR$/tests/utilites/functions.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
@@ -181,11 +179,14 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_11_22_162325_create_favorites_table.php" />
         <option value="$PROJECT_DIR$/tests/Feature/FavoritesTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php" />
-        <option value="$PROJECT_DIR$/app/Reply.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
-        <option value="$PROJECT_DIR$/resources/views/threads/reply.blade.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/threads/reply.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
         <option value="$PROJECT_DIR$/app/Thread.php" />
+        <option value="$PROJECT_DIR$/app/Reply.php" />
+        <option value="$PROJECT_DIR$/app/Favoritable.php" />
       </list>
     </option>
   </component>
@@ -286,11 +287,14 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
       <path value="" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="292" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
@@ -393,7 +397,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="appser&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AppServiceProvider.php&#10;thread&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;rep&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/reply.blade.php&#10;fav&#9;null&#9;null&#10;repl&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;fa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/FavoritesController.php&#10;favo&#9;null&#9;null&#10;we&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;builder&#9;null&#9;null&#10;fun&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/utilites/functions.php&#10;app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;index&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/index.blade.php&#10;thre&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;threa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;show&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;help&#9;FILE&#9;file://D:/OSPanel/domains/forum/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php&#10;helper&#9;FILE&#9;file://D:/OSPanel/domains/forum/vendor/beyondcode/laravel-dump-server/helpers.php&#10;threads&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;AppServi&#9;null&#9;null&#10;create&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/CreateThreadsTest.php&#10;creat&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/create.blade.php&#10;web&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;la&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;handler&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Exceptions/Handler.php&#10;env&#9;FILE&#9;file://D:/OSPanel/domains/forum/.env&#10;crea&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/CreateThreadsTest.php&#10;sh&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;reply&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php" />
+    <property name="SearchEverywhereHistoryKey" value="filt&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Filters/ThreadFilters.php&#10;thr&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;web&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;appser&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AppServiceProvider.php&#10;thread&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;rep&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/reply.blade.php&#10;fav&#9;null&#9;null&#10;repl&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;fa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/FavoritesController.php&#10;favo&#9;null&#9;null&#10;we&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;builder&#9;null&#9;null&#10;fun&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/utilites/functions.php&#10;app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;index&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/index.blade.php&#10;thre&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;threa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;show&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;help&#9;FILE&#9;file://D:/OSPanel/domains/forum/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php&#10;helper&#9;FILE&#9;file://D:/OSPanel/domains/forum/vendor/beyondcode/laravel-dump-server/helpers.php&#10;threads&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;AppServi&#9;null&#9;null&#10;create&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/CreateThreadsTest.php&#10;creat&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/create.blade.php&#10;la&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;handler&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Exceptions/Handler.php&#10;env&#9;FILE&#9;file://D:/OSPanel/domains/forum/.env&#10;crea&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/CreateThreadsTest.php&#10;sh&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;reply&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit 6+" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml" />
@@ -462,20 +466,11 @@
       <workItem from="1573666287597" duration="22745000" />
       <workItem from="1573848717275" duration="15673000" />
       <workItem from="1574074590421" duration="7106000" />
-      <workItem from="1574083497864" duration="66122000" />
+      <workItem from="1574083497864" duration="81434000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FavoritesTest - 2019.11.22 at 20h 15m 55s.xml">
-      <configuration name="FavoritesTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FavoritesTest - 2019.11.22 at 20h 16m 30s.xml">
-      <configuration name="FavoritesTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FavoritesTest - 2019.11.22 at 20h 21m 15s.xml">
-      <configuration name="FavoritesTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="FavoritesTest - 2019.11.22 at 20h 22m 17s.xml">
       <configuration name="FavoritesTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -497,9 +492,18 @@
     <history-entry file="tests - 2019.11.22 at 21h 33m 50s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="tests - 2019.11.22 at 22h 51m 00s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2019.11.23 at 01h 04m 17s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2019.11.23 at 21h 24m 49s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113836000" />
+    <option name="totallyTimeSpent" value="129148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -511,16 +515,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32837838" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32837838" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20810811" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939248" visible="true" weight="0.18421052" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.12567568" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939248" visible="true" weight="0.18421052" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
@@ -538,7 +543,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32837838" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32837838" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939248" visible="true" weight="0.18421052" />
@@ -548,7 +553,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.20810811" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.17162162" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -569,21 +574,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php" />
-    <entry file="file://$PROJECT_DIR$/phpunit.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -773,20 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/threads/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -835,27 +811,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Filters/ThreadFilters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -866,64 +825,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RepliesController.php">
+    <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-120" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/FavoritesTest.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#33#52#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Favorite.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/threads/reply.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="103" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Reply.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="340">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -937,10 +847,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/FavoritesTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#33#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1574526151114" expanded="true" signature="2112:2193" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Filters/ThreadFilters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RepliesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/reply.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="127" column="27" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="27" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Thread.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="200">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Favorite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Reply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Favoritable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
