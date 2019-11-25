@@ -38,6 +38,11 @@ composer require barryvdh/laravel-debugbar --dev
 add loader to AppServiceProvider.php
 add cashing channels to AppServiceProvider.php
 
+php artisan make:test ProfilesTest
+
+php artisan make:model Profile -mr
+
+
 
 
 

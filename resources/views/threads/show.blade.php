@@ -6,9 +6,7 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">
-                        <a href="#">
-                            {{ $thread->creator->name }}
-                        </a> posted:
+                        <a href="{{ route('profile', $thread->creator) }}">{{ $thread->creator->name }}</a> posted:
                         {{ $thread->title }}
                     </div>
 
@@ -26,7 +24,7 @@
                     @include('threads.reply')
                 @endforeach
 
-                    {{ $replies->links() }}
+                {{ $replies->links() }}
 
                 @if(auth()->check())
                     <form method="POST" action="{{ $thread->path() . '/replies' }}">
@@ -47,13 +45,13 @@
 
             <div class="col-md-4">
                 <div class="card">
-                   <div class="card-header">
-                       <p>
-                           This thread was published {{ $thread->created_at->diffForHumans() }} by
-                           <a href="#">{{ $thread->creator->name }}</a>, and corrently
-                           has {{ $thread->replies_count }}  {{ str_plural('comment', $thread->replies_count) }}.
-                       </p>
-                   </div>
+                    <div class="card-header">
+                        <p>
+                            This thread was published {{ $thread->created_at->diffForHumans() }} by
+                            <a href="#">{{ $thread->creator->name }}</a>, and corrently
+                            has {{ $thread->replies_count }}  {{ str_plural('comment', $thread->replies_count) }}.
+                        </p>
+                    </div>
                 </div>
             </div>
 
