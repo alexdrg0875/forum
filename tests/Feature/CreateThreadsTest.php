@@ -91,7 +91,7 @@ class CreateThreadsTest extends TestCase
         $reply = create('App\Reply' , ['thread_id' => $thread->id]);
 
         $response = $this->json('DELETE', $thread->path());
-
+    //    dd($response->status());
         $response->assertStatus(204);
 
         $this->assertDatabaseMissing('threads', ['id' => $thread->id]);

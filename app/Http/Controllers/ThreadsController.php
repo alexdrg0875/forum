@@ -112,6 +112,8 @@ class ThreadsController extends Controller
      *
      * @param  \App\Thread $thread
      * @return \Illuminate\Http\Response
+     * @throws \Illuminate\Auth\Access\AuthorizationException
+     * @throws \Exception
      */
     public function destroy($channel, Thread $thread)
     {

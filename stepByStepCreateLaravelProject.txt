@@ -43,6 +43,11 @@ php artisan make:test ProfilesTest
 php artisan make:model Profile -mr
 
 php artisan make:policy ThreadPolicy --model=Thread, add policy to AuthServiceProvider.php
+php artisan make:test ActivityTest --unit
+php artisan make:model Activity -mr
+make trait RecordsActivity
+
+
 
 
 

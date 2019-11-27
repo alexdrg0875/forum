@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Thread extends Model
 {
+    use RecordsActivity;
+
     protected $guarded = [];
 
     protected $with = ['creator', 'channel']; // add to a global scope to reduce number of sql query
@@ -14,16 +16,26 @@ class Thread extends Model
     {
         parent::boot();
 
-        static::addGlobalScope('replyCount', function ($builder) {
-            $builder->withCount('replies');
-        });
+        static::addGlobalScope
+        ('replyCount',
+            function ($builder)
+            {
+                $builder->withCount('replies');
+            }
+        );
 
-        static::deleting( function ($thread) {
-            $thread->replies()->delete();
-        });
+        static::deleting
+        (
+            function ($thread)
+            {
+                $thread->replies->each->delete();
+            }
+        );
+
 
 
     }
+
 
     public function path()
     {
