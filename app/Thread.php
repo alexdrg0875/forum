@@ -12,28 +12,17 @@ class Thread extends Model
 
     protected $with = ['creator', 'channel']; // add to a global scope to reduce number of sql query
 
-    protected static function boot ()
+    protected static function boot()
     {
         parent::boot();
 
-        static::addGlobalScope
-        ('replyCount',
-            function ($builder)
-            {
-                $builder->withCount('replies');
-            }
-        );
+        static::addGlobalScope('replyCount', function ($builder) {
+            $builder->withCount('replies');
+        });
 
-        static::deleting
-        (
-            function ($thread)
-            {
-                $thread->replies->each->delete();
-            }
-        );
-
-
-
+        static::deleting(function ($thread) {
+            $thread->replies->each->delete();
+        });
     }
 
 
