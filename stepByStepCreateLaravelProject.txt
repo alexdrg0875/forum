@@ -46,7 +46,7 @@ php artisan make:policy ThreadPolicy --model=Thread, add policy to AuthServicePr
 php artisan make:test ActivityTest --unit
 php artisan make:model Activity -mr
 make trait RecordsActivity
-
+starting Vue.Js component, npm run dev, npm run watch
 
 
 
