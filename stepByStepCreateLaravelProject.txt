@@ -47,9 +47,9 @@ php artisan make:test ActivityTest --unit
 php artisan make:model Activity -mr
 make trait RecordsActivity
 starting Vue.Js component, npm run dev, npm run watch
-
+add flash.vue
 php artisan make:policy ReplyPolicy , dd policy to AuthServiceProvider.php
-
+add reply.vue
 
 
 
