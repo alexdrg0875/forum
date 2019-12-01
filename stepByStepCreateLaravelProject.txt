@@ -50,7 +50,7 @@ starting Vue.Js component, npm run dev, npm run watch
 add flash.vue
 php artisan make:policy ReplyPolicy , dd policy to AuthServiceProvider.php
 add reply.vue
-
+add favorite.vue
 
 
 

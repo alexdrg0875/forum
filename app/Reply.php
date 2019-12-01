@@ -12,6 +12,8 @@ class Reply extends Model
 
     protected $with = ['owner', 'favorites']; // add to a global scope to reduce number of sql query
 
+    protected $appends = ['favoritesCount', 'isFavorited'];
+
     public function owner()
     {
         return $this->belongsTo(User::class, 'user_id');
