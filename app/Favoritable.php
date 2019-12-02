@@ -11,6 +11,12 @@ namespace App;
 
 trait Favoritable
 {
+    protected static function bootFavoritable() {
+        static::deleting(function ($nodel) {
+            $nodel->favorites->each->delete();
+        });
+    }
+
     public function favorites()
     {
 //        var_dump('querieng');
@@ -29,7 +35,7 @@ trait Favoritable
     {
         $attributes = ['user_id' => auth()->id()];
 
-        $this->favorites()->where($attributes)->delete();
+        $this->favorites()->where($attributes)->get()->each->delete();
     }
 
     public function isFavorited()

@@ -7,16 +7,18 @@
                         {{ $reply->owner->name }}
                     </a> said {{ $reply->created_at->diffForHumans() }}
                 </h5>
-                <div>
-                    <favorite :reply="{{ $reply }}"></favorite>
-                    {{--<form method="POST" action="/replies/{{ $reply->id }}/favorites">--}}
+                @if(Auth::check())
+                    <div>
+                        <favorite :reply="{{ $reply }}"></favorite>
+                        {{--<form method="POST" action="/replies/{{ $reply->id }}/favorites">--}}
                         {{--@csrf--}}
                         {{--<button type="submit"--}}
-                                {{--class="btn btn-outline-secondary" {{ $reply->isFavorited() ? 'disabled' : '' }}>--}}
-                            {{--{{ $reply->favorites_count }} {{ str_plural('Favorite', $reply->favorites_count) }}--}}
+                        {{--class="btn btn-outline-secondary" {{ $reply->isFavorited() ? 'disabled' : '' }}>--}}
+                        {{--{{ $reply->favorites_count }} {{ str_plural('Favorite', $reply->favorites_count) }}--}}
                         {{--</button>--}}
-                    {{--</form>--}}
-                </div>
+                        {{--</form>--}}
+                    </div>
+                @endif
             </div>
         </div>
         <div class="card-body">
@@ -42,11 +44,11 @@
                 <button class="btn btn-danger btn-xs mr-1" @click="destroy">Delete</button>
 
                 {{--<form method="POST" action="/replies/{{  $reply->id }}">--}}
-                    {{--@csrf--}}
-                    {{--{{ method_field('DELETE') }}--}}
-                    {{--<button type="submit" class="btn btn-danger btn-xs">--}}
-                        {{--Delete--}}
-                    {{--</button>--}}
+                {{--@csrf--}}
+                {{--{{ method_field('DELETE') }}--}}
+                {{--<button type="submit" class="btn btn-danger btn-xs">--}}
+                {{--Delete--}}
+                {{--</button>--}}
                 {{--</form>--}}
             </div>
         @endcan
