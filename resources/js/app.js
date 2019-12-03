@@ -4,9 +4,9 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
-
 window.Vue = require('vue');
+
+require('./bootstrap');
 
 Vue.prototype.authorize = function(handler) {
     let user = window.App.user;
@@ -39,8 +39,3 @@ const app = new Vue({
 });
 
 
-window.events = new Vue();
-
-window.flash = function (message) {
-    window.events.$emit('flash', message);
-};

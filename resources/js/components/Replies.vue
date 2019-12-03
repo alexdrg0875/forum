@@ -29,7 +29,7 @@
 
         methods: {
             add(reply) {
-              this.item.push(reply);
+              this.items.push(reply);
 
               this.$emit('added');
             },
@@ -41,7 +41,7 @@
 
                 flash('Reply was deleted!');
             }
-        },
+        }
     }
 </script>
 

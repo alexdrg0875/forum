@@ -1927,7 +1927,7 @@ __webpack_require__.r(__webpack_exports__);
 
       setTimeout(function () {
         _this2.show = false;
-      }, 3000);
+      }, 5000);
     }
   }
 });
@@ -2038,7 +2038,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     add: function add(reply) {
-      this.item.push(reply);
+      this.items.push(reply);
       this.$emit('added');
     },
     remove: function remove(index) {
@@ -50671,9 +50671,9 @@ module.exports = function(module) {
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 Vue.prototype.authorize = function (handler) {
   var user = window.App.user;
@@ -50701,11 +50701,6 @@ Vue.component('thread-view', __webpack_require__(/*! ./pages/Thread.vue */ "./re
 var app = new Vue({
   el: '#app'
 });
-window.events = new Vue();
-
-window.flash = function (message) {
-  window.events.$emit('flash', message);
-};
 
 /***/ }),
 
@@ -50738,6 +50733,11 @@ try {
 
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+window.events = new Vue();
+
+window.flash = function (message) {
+  window.events.$emit('flash', message);
+};
 
 /***/ }),
 
