@@ -52,7 +52,7 @@ php artisan make:policy ReplyPolicy , dd policy to AuthServiceProvider.php
 add Reply.vue
 add Favorite.vue
 add Replies.vue
-
+add NewReply.vue
 
 
 
