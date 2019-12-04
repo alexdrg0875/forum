@@ -53,6 +53,10 @@ add Reply.vue
 add Favorite.vue
 add Replies.vue
 add NewReply.vue
+npm install moment --save
+add /mixins/collection.js
+add Paginator.vue
+
 
 
 
