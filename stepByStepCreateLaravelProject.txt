@@ -58,6 +58,7 @@ add /mixins/collection.js
 add Paginator.vue
 php artisan make:model ThreadSubscription -m
 php artisan make:controller ThreadSubscriptionsController
+add SubscribeButton.vue
 
 
 

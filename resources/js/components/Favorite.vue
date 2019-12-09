@@ -21,7 +21,7 @@
         computed: {
             classes(){
                 return ['btn',
-                    this.active ? 'btn-primary' : 'btn-default'];
+                    this.active ? 'btn-primary' : 'btn-outline-secondary'];
             },
 
             endpoint() {
