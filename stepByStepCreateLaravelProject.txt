@@ -59,6 +59,14 @@ add Paginator.vue
 php artisan make:model ThreadSubscription -m
 php artisan make:controller ThreadSubscriptionsController
 add SubscribeButton.vue
+php artisan notification:table
+php artisan migrate
+php artisan make:notification ThreadWasUpdated
+
+php artisan make:test NotificationsTest
+
+php artisan make:controller UserNotificationsController
+
 
 
 
