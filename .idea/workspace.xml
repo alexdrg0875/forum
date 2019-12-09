@@ -47,15 +47,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThreadsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Thread.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Thread.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,29 +65,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="threads" pinned="false" current-in-tab="false">
-        <entry file="das://dedc0260-f685-41c1-8156-409dcebccb87/schema/forum/table/threads">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thread_subscriptions" pinned="false" current-in-tab="true">
-        <entry file="das://dedc0260-f685-41c1-8156-409dcebccb87/schema/forum/table/thread_subscriptions">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2019_11_13_153644_create_threads_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_13_153644_create_threads_table.php">
+      <file leaf-file-name="SubscribeToThreadsTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/SubscribeToThreadsTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            <state relative-caret-position="480">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <folding>
+                <element signature="e#33#52#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="22" column="74" lean-forward="true" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+              <folding>
+                <element signature="e#7#389#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadSubscriptionsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadSubscriptionsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding>
+                <element signature="e#40#55#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,8 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/resources/views/threads/index.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_11_27_114745_create_activities_table.php" />
         <option value="$PROJECT_DIR$/resources/views/profiles/activities/activity.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/profiles/activities/created_thread.blade.php" />
@@ -200,7 +198,6 @@
         <option value="$PROJECT_DIR$/resources/js/components/Flash.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/Reply.vue" />
         <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/js/mixins/Collection.js" />
@@ -219,6 +216,9 @@
         <option value="$PROJECT_DIR$/app/Thread.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_11_13_153644_create_threads_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_12_09_130134_create_thread_subscriptions_table.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadSubscriptionsController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/SubscribeToThreadsTest.php" />
       </list>
     </option>
   </component>
@@ -500,7 +500,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="threadsu&#9;null&#9;null&#10;thread&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;web&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;reply&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;replie&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;partic&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/ParticipateInThreadsTest.php&#10;threadfil&#9;null&#9;null&#10;nav&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/nav.blade.php&#10;thre&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;user&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;repl&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;re&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;fav&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Favorite.php&#10;reco&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/RecordsActivity.php&#10;create&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/CreateThreadsTest.php&#10;prof&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ProfilesController.php&#10;profi&#9;null&#9;null&#10;se&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AuthServiceProvider.php&#10;auth s&#9;null&#9;null&#10;index&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/index.blade.php&#10;filt&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Filters/ThreadFilters.php&#10;thr&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;appser&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AppServiceProvider.php&#10;rep&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/reply.blade.php&#10;fa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/FavoritesController.php&#10;favo&#9;null&#9;null&#10;we&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;builder&#9;null&#9;null&#10;fun&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/utilites/functions.php&#10;threa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;show&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;help&#9;FILE&#9;file://D:/OSPanel/domains/forum/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php&#10;helper&#9;FILE&#9;file://D:/OSPanel/domains/forum/vendor/beyondcode/laravel-dump-server/helpers.php&#10;threads&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;AppServi&#9;null&#9;null&#10;creat&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/create.blade.php&#10;la&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;handler&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Exceptions/Handler.php&#10;env&#9;FILE&#9;file://D:/OSPanel/domains/forum/.env&#10;crea&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/CreateThreadsTest.php&#10;sh&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="controll&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadSubscriptionsController.php&#10;web&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;threadsu&#9;null&#9;null&#10;thread&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;reply&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;replie&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;partic&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/ParticipateInThreadsTest.php&#10;threadfil&#9;null&#9;null&#10;nav&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/nav.blade.php&#10;thre&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;user&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;repl&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;re&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;fav&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Favorite.php&#10;reco&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/RecordsActivity.php&#10;create&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/CreateThreadsTest.php&#10;prof&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ProfilesController.php&#10;profi&#9;null&#9;null&#10;se&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AuthServiceProvider.php&#10;auth s&#9;null&#9;null&#10;index&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/index.blade.php&#10;filt&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Filters/ThreadFilters.php&#10;thr&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;appser&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AppServiceProvider.php&#10;rep&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/reply.blade.php&#10;fa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/FavoritesController.php&#10;favo&#9;null&#9;null&#10;we&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;builder&#9;null&#9;null&#10;fun&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/utilites/functions.php&#10;threa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;show&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;help&#9;FILE&#9;file://D:/OSPanel/domains/forum/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php&#10;helper&#9;FILE&#9;file://D:/OSPanel/domains/forum/vendor/beyondcode/laravel-dump-server/helpers.php&#10;threads&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;AppServi&#9;null&#9;null&#10;creat&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/create.blade.php&#10;la&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;handler&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Exceptions/Handler.php&#10;env&#9;FILE&#9;file://D:/OSPanel/domains/forum/.env&#10;crea&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/CreateThreadsTest.php&#10;sh&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MariaDB&#10;MySQL" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit 6+" />
@@ -523,9 +523,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.tests">
-    <configuration name="ReadThreadsTest.a_user_can_filter_thread_by_those_that_are_unanswered" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ReadThreadsTest" file="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" method="a_user_can_filter_thread_by_those_that_are_unanswered" scope="Method" />
+  <component name="RunManager" selected="PHPUnit.SubscribeToThreadsTest.a_user_can_subscribe_to_threads">
+    <configuration name="SubscribeToThreadsTest.a_user_can_subscribe_to_threads" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\SubscribeToThreadsTest" file="$PROJECT_DIR$/tests/Feature/SubscribeToThreadsTest.php" method="a_user_can_subscribe_to_threads" scope="Method" />
     </configuration>
     <configuration name="ThreadTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\ThreadTest" file="$PROJECT_DIR$/tests/Unit/ThreadTest.php" scope="Class" />
@@ -541,18 +541,18 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.tests" />
-      <item itemvalue="PHPUnit.ReadThreadsTest.a_user_can_filter_thread_by_those_that_are_unanswered" />
       <item itemvalue="PHPUnit.ThreadTest" />
       <item itemvalue="PHPUnit.ThreadTest.a_thread_can_be_subscribered_to" />
       <item itemvalue="PHPUnit.ThreadTest.a_thread_can_be_unsubscribed_from" />
+      <item itemvalue="PHPUnit.SubscribeToThreadsTest.a_user_can_subscribe_to_threads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.SubscribeToThreadsTest.a_user_can_subscribe_to_threads" />
         <item itemvalue="PHPUnit.tests" />
         <item itemvalue="PHPUnit.ThreadTest.a_thread_can_be_unsubscribed_from" />
         <item itemvalue="PHPUnit.ThreadTest.a_thread_can_be_subscribered_to" />
         <item itemvalue="PHPUnit.ThreadTest" />
-        <item itemvalue="PHPUnit.ReadThreadsTest.a_user_can_filter_thread_by_those_that_are_unanswered" />
       </list>
     </recent_temporary>
   </component>
@@ -574,32 +574,11 @@
       <workItem from="1574083497864" duration="147693000" />
       <workItem from="1575122164608" duration="170000" />
       <workItem from="1575138319774" duration="29436000" />
-      <workItem from="1575360250538" duration="36526000" />
+      <workItem from="1575360250538" duration="38312000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThreadTest_a_thread_can_be_subscribered_to - 2019.12.09 at 16h 07m 37s.xml">
-      <configuration name="ThreadTest.a_thread_can_be_subscribered_to" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ThreadTest_a_thread_can_be_subscribered_to - 2019.12.09 at 16h 07m 53s.xml">
-      <configuration name="ThreadTest.a_thread_can_be_subscribered_to" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ThreadTest_a_thread_can_be_subscribered_to - 2019.12.09 at 16h 11m 42s.xml">
-      <configuration name="ThreadTest.a_thread_can_be_subscribered_to" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ThreadTest_a_thread_can_be_subscribered_to - 2019.12.09 at 16h 12m 16s.xml">
-      <configuration name="ThreadTest.a_thread_can_be_subscribered_to" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ThreadTest_a_thread_can_be_subscribered_to - 2019.12.09 at 16h 16m 12s.xml">
-      <configuration name="ThreadTest.a_thread_can_be_subscribered_to" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ThreadTest_a_thread_can_be_subscribered_to - 2019.12.09 at 16h 18m 14s.xml">
-      <configuration name="ThreadTest.a_thread_can_be_subscribered_to" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ThreadTest_a_thread_can_be_subscribered_to - 2019.12.09 at 16h 20m 28s.xml">
-      <configuration name="ThreadTest.a_thread_can_be_subscribered_to" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="ThreadTest_a_thread_can_be_subscribered_to - 2019.12.09 at 16h 25m 09s.xml">
       <configuration name="ThreadTest.a_thread_can_be_subscribered_to" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -609,9 +588,30 @@
     <history-entry file="ThreadTest_a_thread_can_be_unsubscribed_from - 2019.12.09 at 16h 28m 47s.xml">
       <configuration name="ThreadTest.a_thread_can_be_unsubscribed_from" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="tests - 2019.12.09 at 16h 52m 13s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="SubscribeToThreadsTest_a_user_can_subscribe_to_threads - 2019.12.09 at 17h 09m 21s.xml">
+      <configuration name="SubscribeToThreadsTest.a_user_can_subscribe_to_threads" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="SubscribeToThreadsTest_a_user_can_subscribe_to_threads - 2019.12.09 at 17h 09m 38s.xml">
+      <configuration name="SubscribeToThreadsTest.a_user_can_subscribe_to_threads" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="SubscribeToThreadsTest_a_user_can_subscribe_to_threads - 2019.12.09 at 17h 11m 28s.xml">
+      <configuration name="SubscribeToThreadsTest.a_user_can_subscribe_to_threads" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="SubscribeToThreadsTest_a_user_can_subscribe_to_threads - 2019.12.09 at 17h 12m 44s.xml">
+      <configuration name="SubscribeToThreadsTest.a_user_can_subscribe_to_threads" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="SubscribeToThreadsTest_a_user_can_subscribe_to_threads - 2019.12.09 at 17h 16m 45s.xml">
+      <configuration name="SubscribeToThreadsTest.a_user_can_subscribe_to_threads" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="SubscribeToThreadsTest_a_user_can_subscribe_to_threads - 2019.12.09 at 17h 17m 35s.xml">
+      <configuration name="SubscribeToThreadsTest.a_user_can_subscribe_to_threads" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261539000" />
+    <option name="totallyTimeSpent" value="263325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,18 +624,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884616" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005325" side_tool="true" weight="0.23365384" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.31346154" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.31346154" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1951923" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3298077" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1951923" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939248" visible="true" weight="0.14909478" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32960597" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946752" weight="0.32884616" />
       <window_info id="Structure" order="1" sideWeight="0.50060755" side_tool="true" weight="0.25772098" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -646,6 +646,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3298077" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -678,20 +679,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/FavoritesTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/profiles/activities/created_thread.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -938,16 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -997,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_13_153644_create_threads_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://dedc0260-f685-41c1-8156-409dcebccb87/schema/forum/table/replies">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1014,10 +988,17 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ce6a5c99-74bd-4898-ac73-8ef1db5d4935/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_09_130134_create_thread_subscriptions_table.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_13_153644_create_threads_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="420">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://dedc0260-f685-41c1-8156-409dcebccb87/schema/forum/table/thread_subscriptions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1028,10 +1009,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://dedc0260-f685-41c1-8156-409dcebccb87/schema/forum/table/thread_subscriptions">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_09_130134_create_thread_subscriptions_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="22" column="74" lean-forward="true" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadSubscriptionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/SubscribeToThreadsTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="e#33#52#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
