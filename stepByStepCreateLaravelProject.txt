@@ -69,6 +69,8 @@ php artisan make:controller UserNotificationsController
 
 add factory for Notification in darabase\factories\UserFactories.php
 
+add UserNotifications.vue
+
 
 
 
