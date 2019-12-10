@@ -5,7 +5,7 @@ modify migration file for additional column
 config .env file
 create db in MySQL
 php artisan migrate
-add factory for Thread model
+add factory for Thread model in darabase\factories\UserFactories.php
 
 from tinker
 $threads = factory('App\Thread', 50)->create()
@@ -66,6 +66,8 @@ php artisan make:notification ThreadWasUpdated
 php artisan make:test NotificationsTest
 
 php artisan make:controller UserNotificationsController
+
+add factory for Notification in darabase\factories\UserFactories.php
 
 
 
