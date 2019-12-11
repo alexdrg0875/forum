@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Reply;
+use App\Spam;
 use App\Thread;
 use Illuminate\Http\Request;
 
@@ -21,14 +22,15 @@ class RepliesController extends Controller
     /**
      * @param $channel_id
      * @param Thread $thread
-     * @return \Illuminate\Http\RedirectResponse
+     * @param Spam $spam
+     * @return \Illuminate\Database\Eloquent\Model
      * @throws \Illuminate\Validation\ValidationException
      */
-    public function store($channel_id, Thread $thread)
+    public function store($channel_id, Thread $thread, Spam $spam)
     {
-        $this->validate(request(), [
-            'body' => 'required'
-        ]);
+        $this->validate(request(), ['body' => 'required']);
+        $spam->detect(request('body'));
+
 
         $reply = $thread->addReply([
             'body' => request('body'),
@@ -42,6 +44,10 @@ class RepliesController extends Controller
         return back()->with('flash', 'Your reply has been left.');
     }
 
+    /**
+     * @param Reply $reply
+     * @throws \Illuminate\Auth\Access\AuthorizationException
+     */
     public function update (Reply $reply)
     {
         $this->authorize('update', $reply);
@@ -49,7 +55,13 @@ class RepliesController extends Controller
         $reply->update(request(['body']));
     }
 
-    public function destroy( Reply $reply)
+    /**
+     * @param Reply $reply
+     * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\RedirectResponse|\Illuminate\Http\Response
+     * @throws \Illuminate\Auth\Access\AuthorizationException
+     * @throws \Exception
+     */
+    public function destroy(Reply $reply)
     {
         $this->authorize('update', $reply);
 

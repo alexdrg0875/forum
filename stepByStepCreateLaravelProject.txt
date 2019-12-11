@@ -71,7 +71,10 @@ add factory for Notification in darabase\factories\UserFactories.php
 
 add UserNotifications.vue
 
+add in EventServiceProvider App\Events\ThreadHasNewReply' => ['App\Listeners\NotifyThreadSubscribers',]
+php artisan event:generate
 
+php artisan make:test SpamTest --unit
 
 
 
