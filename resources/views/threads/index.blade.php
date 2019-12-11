@@ -10,7 +10,13 @@
                             <div class="level">
                                 <h4 class="flex">
                                     <a href="{{ $thread->path() }}">
-                                        {{ $thread->title }}
+                                        @if($thread->hasUpdatesFor(auth()->user()))
+                                            <strong>
+                                                {{ $thread->title }}
+                                            </strong>
+                                        @else
+                                            {{ $thread->title }}
+                                        @endif
                                     </a>
                                 </h4>
 
@@ -34,7 +40,7 @@
                         </div>
                     </div>
                     <br>
-                    @empty
+                @empty
                     <p>There are no relevant result at this time.</p>
                 @endforelse
             </div>
