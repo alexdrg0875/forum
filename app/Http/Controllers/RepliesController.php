@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Inspections\Spam;
 use App\Reply;
-use App\Spam;
 use App\Thread;
 use Illuminate\Http\Request;
 
@@ -25,6 +25,7 @@ class RepliesController extends Controller
      * @param Spam $spam
      * @return \Illuminate\Database\Eloquent\Model
      * @throws \Illuminate\Validation\ValidationException
+     * @throws \Exception
      */
     public function store($channel_id, Thread $thread, Spam $spam)
     {
