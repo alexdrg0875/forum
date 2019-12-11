@@ -76,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserNotifications.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserNotifications.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/UserNotifications.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -112,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Thread.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Thread.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+            <state relative-caret-position="346">
+              <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
               <folding>
                 <element signature="e#23#62#0#PHP" expanded="true" />
               </folding>
@@ -213,7 +213,6 @@
         <option value="$PROJECT_DIR$/resources/js/components/SubscribeButton.vue" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadSubscriptionsController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/SubscribeToThreadsTest.php" />
-        <option value="$PROJECT_DIR$/app/Thread.php" />
         <option value="$PROJECT_DIR$/app/ThreadSubscription.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserNotificationsController.php" />
@@ -225,6 +224,7 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/app/Notifications/ThreadWasUpdated.php" />
         <option value="$PROJECT_DIR$/resources/js/components/UserNotifications.vue" />
+        <option value="$PROJECT_DIR$/app/Thread.php" />
       </list>
     </option>
   </component>
@@ -586,26 +586,11 @@
       <workItem from="1574083497864" duration="147693000" />
       <workItem from="1575122164608" duration="170000" />
       <workItem from="1575138319774" duration="29436000" />
-      <workItem from="1575360250538" duration="67682000" />
+      <workItem from="1575360250538" duration="69175000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NotificationsTest_a_user_can_fetch_their_unread_notifications - 2019.12.09 at 22h 30m 29s.xml">
-      <configuration name="NotificationsTest.a_user_can_fetch_their_unread_notifications" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="tests - 2019.12.09 at 22h 31m 36s.xml">
-      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="NotificationsTest - 2019.12.10 at 19h 56m 07s.xml">
-      <configuration name="NotificationsTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="NotificationsTest_a_user_can_fetch_their_unread_notifications - 2019.12.10 at 20h 19m 26s.xml">
-      <configuration name="NotificationsTest.a_user_can_fetch_their_unread_notifications" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="NotificationsTest_a_user_can_fetch_their_unread_notifications - 2019.12.10 at 20h 21m 44s.xml">
-      <configuration name="NotificationsTest.a_user_can_fetch_their_unread_notifications" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="NotificationsTest_a_user_can_fetch_their_unread_notifications - 2019.12.10 at 20h 23m 50s.xml">
       <configuration name="NotificationsTest.a_user_can_fetch_their_unread_notifications" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -621,9 +606,24 @@
     <history-entry file="tests - 2019.12.10 at 21h 01m 35s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="tests - 2019.12.10 at 23h 59m 44s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2019.12.11 at 13h 08m 26s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2019.12.11 at 13h 22m 36s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2019.12.11 at 13h 23m 05s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2019.12.11 at 13h 23m 15s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292695000" />
+    <option name="totallyTimeSpent" value="294188000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -642,11 +642,11 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005325" side_tool="true" weight="0.23365384" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.31346154" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.375" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.1951923" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3298077" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939248" visible="true" weight="0.14909478" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939248" visible="true" weight="0.14909478" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946752" weight="0.32884616" />
@@ -660,29 +660,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3298077" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.31346154" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939248" visible="true" weight="0.14909478" />
-      <window_info id="Structure" order="1" sideWeight="0.50060755" side_tool="true" weight="0.25772098" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32884616" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946752" weight="0.32884616" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1951923" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005325" side_tool="true" weight="0.23365384" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26634616" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -983,16 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Thread.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-          <folding>
-            <element signature="e#23#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Reply.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1076,6 +1043,16 @@
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <marker date="1576011456284" expanded="true" signature="687:865" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Thread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
