@@ -76,6 +76,10 @@ php artisan event:generate
 
 php artisan make:test SpamTest --unit
 
+php artisan make:rule SpamFree
+register \Validator::extend('spamfree', 'App\Rules\SpamFree@passes'); in AppServiceProvider
+add string 'spamfree' => 'The :attribute contains spam.', in resorses\leng\en\validation.php
+
 
 
 
