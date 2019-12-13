@@ -80,6 +80,11 @@ php artisan make:rule SpamFree
 register \Validator::extend('spamfree', 'App\Rules\SpamFree@passes'); in AppServiceProvider
 add string 'spamfree' => 'The :attribute contains spam.', in resorses\leng\en\validation.php
 
+php artisan make:request CreatePostRequest, relocate validations - 'body' => 'required|spamfree' to CreatePostForm
+add to Exception\Handler.php if($exception instanceof ValidationException) {            return response('Sorry, validation failed.', 422);        }
+make ThrottleException.php in Exception folder
+
+
 
 
 
