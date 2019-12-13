@@ -1,7 +1,6 @@
 <template>
     <div>
         <div v-if="signedIn">
-            <!--@if(auth()->check())-->
             <div class="form-group">
             <textarea name="body"
                       id="body"

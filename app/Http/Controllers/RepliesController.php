@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Reply;
 use App\Thread;
+use Illuminate\Support\Facades\Gate;
 
 class RepliesController extends Controller
 {
@@ -20,23 +21,26 @@ class RepliesController extends Controller
     /**
      * @param $channel_id
      * @param Thread $thread
-     * @param Spam $spam
      * @return \Illuminate\Database\Eloquent\Model
-     * @throws \Illuminate\Validation\ValidationException
      * @throws \Exception
      */
     public function store($channel_id, Thread $thread)
     {
         try {
+            if(Gate::denies('create', new Reply)) {
+                return response(
+                    'You are posting to frequently. Please take a break. :)', 422
+                );
+            }
             request()->validate(['body' => 'required|spamfree']);
 
             $reply = $thread->addReply([
                 'body' => request('body'),
-                'user_id' => auth()->id(),
+                'user_id' => auth()->id()
             ]);
         } catch (\Exception $e) {
             return response(
-                'Sorry, your reply could not be saved at this time.', 422
+                'Sorry, your reply could not be saved at this time. ', 422
             );
         }
 
@@ -45,8 +49,8 @@ class RepliesController extends Controller
 
     /**
      * @param Reply $reply
+     * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\Response
      * @throws \Illuminate\Auth\Access\AuthorizationException
-     * @throws \Illuminate\Validation\ValidationException
      */
     public function update(Reply $reply)
     {

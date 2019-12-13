@@ -43,6 +43,7 @@ class Thread extends Model
      */
     public function replies()
     {
+//        dd('hi from thread model');
         return $this->hasMany(Reply::class);
     }
 
