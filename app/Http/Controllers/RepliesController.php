@@ -32,25 +32,10 @@ class RepliesController extends Controller
 
 //            request()->validate(['body' => 'required|spamfree']); // relocate to CreatePostForm
 
-        $reply = $thread->addReply([
+        return $thread->addReply([
             'body' => request('body'),
             'user_id' => auth()->id()
-        ]);
-
-        // Inspect the body of the reply for username mentions
-        preg_match_all('/\@([^\s\.]+)/', $reply->body,$matches);
-
-        // Add then for each mentioned user, notify them.
-
-        foreach ($matches[1] as $name) {
-            $user = User::whereName($name)->first();
-
-            if($user) {
-                $user->notify(new YouWereMentioned($reply));
-            }
-        }
-
-        return $reply->load('owner');
+        ])->load('owner');
     }
 
     /**
