@@ -84,6 +84,8 @@ php artisan make:request CreatePostRequest, relocate validations - 'body' => 're
 add to Exception\Handler.php if($exception instanceof ValidationException) {            return response('Sorry, validation failed.', 422);        }
 make ThrottleException.php in Exception folder
 
+php artisan make:test MentionUsersTest
+php artisan make:notification YouWereMentioned
 
 
 
