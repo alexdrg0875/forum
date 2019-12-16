@@ -87,7 +87,9 @@ make ThrottleException.php in Exception folder
 php artisan make:test MentionUsersTest
 php artisan make:notification YouWereMentioned
 
+php artisan make:controller Api\UsersController
 
+copy jquery.atwho.css to public\vendor\
 
 
 

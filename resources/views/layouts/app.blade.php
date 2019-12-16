@@ -53,6 +53,8 @@
             display: none;
         }
     </style>
+
+    @yield('header')
 </head>
 <body style="padding-bottom: 100px;">
 <div id="app">
@@ -63,5 +65,6 @@
     </main>
     <flash message="{{ session('flash') }}"></flash>
 </div>
+@yield('scripts')
 </body>
 </html>
