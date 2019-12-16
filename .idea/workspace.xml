@@ -67,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reply.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Reply.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/js/components/Reply.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="93" selection-start-line="23" selection-start-column="93" selection-end-line="23" selection-end-column="93" />
+            <state relative-caret-position="520">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding>
                 <element signature="e#1250#1288#0" expanded="true" />
               </folding>
@@ -83,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/tests/Unit/ReplyTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="146">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#30#48#0#PHP" expanded="true" />
               </folding>
@@ -91,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reply.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Reply.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Reply.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="226">
@@ -155,7 +155,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="58">
-              <caret line="65" column="34" lean-forward="true" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+              <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
               <folding>
                 <element signature="e#40#55#0#PHP" expanded="true" />
               </folding>
@@ -250,12 +250,12 @@
         <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Listeners/NotifySubscribers.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" />
-        <option value="$PROJECT_DIR$/resources/js/components/Reply.vue" />
         <option value="$PROJECT_DIR$/app/Listeners/NotifyMentionedUsers.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/MentionUsersTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ReplyTest.php" />
         <option value="$PROJECT_DIR$/app/Reply.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/Reply.vue" />
       </list>
     </option>
   </component>
@@ -633,20 +633,11 @@
       <workItem from="1575138319774" duration="29436000" />
       <workItem from="1575360250538" duration="88161000" />
       <workItem from="1576147977415" duration="9448000" />
-      <workItem from="1576247973971" duration="25692000" />
+      <workItem from="1576247973971" duration="26349000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReplyTest_it_wraps_mentioned_usernames_in_the_body_within_anchor_tags - 2019.12.16 at 21h 25m 11s.xml">
-      <configuration name="ReplyTest.it_wraps_mentioned_usernames_in_the_body_within_anchor_tags" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ReplyTest_it_wraps_mentioned_usernames_in_the_body_within_anchor_tags - 2019.12.16 at 21h 25m 22s.xml">
-      <configuration name="ReplyTest.it_wraps_mentioned_usernames_in_the_body_within_anchor_tags" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ReplyTest_it_wraps_mentioned_usernames_in_the_body_within_anchor_tags - 2019.12.16 at 21h 29m 52s.xml">
-      <configuration name="ReplyTest.it_wraps_mentioned_usernames_in_the_body_within_anchor_tags" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="ReplyTest_it_wraps_mentioned_usernames_in_the_body_within_anchor_tags - 2019.12.16 at 21h 31m 42s.xml">
       <configuration name="ReplyTest.it_wraps_mentioned_usernames_in_the_body_within_anchor_tags" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -668,9 +659,18 @@
     <history-entry file="ReplyTest_it_can_detect_all_mentioned_user_in_the_body - 2019.12.16 at 21h 37m 32s.xml">
       <configuration name="ReplyTest.it_can_detect_all_mentioned_user_in_the_body" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="ReplyTest_it_can_detect_all_mentioned_user_in_the_body - 2019.12.16 at 21h 38m 16s.xml">
+      <configuration name="ReplyTest.it_can_detect_all_mentioned_user_in_the_body" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ReplyTest - 2019.12.16 at 21h 38m 22s.xml">
+      <configuration name="ReplyTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2019.12.16 at 21h 38m 49s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357749000" />
+    <option name="totallyTimeSpent" value="358406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -689,10 +689,10 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005325" side_tool="true" weight="0.23365384" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.375" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.375" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.1951923" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939248" visible="true" weight="0.15228967" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939248" visible="true" weight="0.15228967" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946752" weight="0.32884616" />
@@ -1011,16 +1011,6 @@
         <state relative-caret-position="-300" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/Reply.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="93" selection-start-line="23" selection-start-column="93" selection-end-line="23" selection-end-column="93" />
-          <folding>
-            <element signature="e#1250#1288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RepliesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1053,7 +1043,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
-          <caret line="65" column="34" lean-forward="true" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+          <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
           <folding>
             <element signature="e#40#55#0#PHP" expanded="true" />
           </folding>
@@ -1070,22 +1060,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/ReplyTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#30#48#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Reply.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
           <folding>
             <element signature="e#23#41#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/ReplyTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#30#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Reply.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#1250#1288#0" expanded="true" />
           </folding>
         </state>
       </provider>
