@@ -12,9 +12,11 @@
                     <div class="card">
                         <div class="card-header">
                             <div class="level">
-                            <span class="flex">
+                                <img class="mr-1" src="{{ asset($thread->creator->avatar()) }}"
+                                     alt="{{ $thread->creator->name }}'s avatar" width="25" height="25">
+                                <span class="flex">
                         <a href="{{ route('profile', $thread->creator) }}">{{ $thread->creator->name }}</a> posted:
-                                {{ $thread->title }}
+                                    {{ $thread->title }}
                             </span>
 
                                 @can('update', $thread)
@@ -48,10 +50,12 @@
                             <p>
                                 This thread was published {{ $thread->created_at->diffForHumans() }} by
                                 <a href="#">{{ $thread->creator->name }}</a>, and corrently
-                                has <span v-text="repliesCount"></span>  {{ str_plural('comment', $thread->replies_count) }}.
+                                has <span
+                                    v-text="repliesCount"></span> {{ str_plural('comment', $thread->replies_count) }}.
                             </p>
                             <p>
-                                <subscribe-button :active="{{ json_encode($thread->isSubscribedTo) }}"></subscribe-button>
+                                <subscribe-button
+                                    :active="{{ json_encode($thread->isSubscribedTo) }}"></subscribe-button>
                             </p>
                         </div>
                     </div>

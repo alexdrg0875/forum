@@ -93,6 +93,10 @@ copy jquery.atwho.css to public\vendor\
 
 php artisan make:controller "Api\UserAvatarController"
 
+php artisan make:policy UserPolicy
+php artisan storage:link
+
+
 
 
 
