@@ -95,7 +95,8 @@ php artisan make:controller "Api\UserAvatarController"
 
 php artisan make:policy UserPolicy
 php artisan storage:link
-
+add AvatarForm.vue
+add ImageUpload.vue
 
 
 

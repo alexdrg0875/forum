@@ -58,11 +58,6 @@ class User extends Authenticatable
         return $this->hasMany(Activity::class);
     }
 
-    public function visitedThreadCacheKey($thread)
-    {
-        return sprintf("users.%s.visits.%s", $this->id, $thread->id);
-    }
-
     public function read($thread)
     {
         cache()->forever(
@@ -71,8 +66,13 @@ class User extends Authenticatable
         );
     }
 
-    public function avatar()
+    public function getAvatarPathAttribute($avatar)
     {
-        return asset($this->avatar_path ?: 'avatars/default.jpg');
+        return asset(($avatar) ? 'storage/' . $avatar : 'images/avatars/default.png');
+    }
+
+    public function visitedThreadCacheKey($thread)
+    {
+        return sprintf("users.%s.visits.%s", $this->id, $thread->id);
     }
 }

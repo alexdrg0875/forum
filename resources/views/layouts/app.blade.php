@@ -39,6 +39,10 @@
         .level {
             display: flex;
             align-items: center;
+            margin-bottom: 10px;
+            :h1{
+                margin-top: auto;
+            }
         }
 
         .flex {
