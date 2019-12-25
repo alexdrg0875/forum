@@ -100,6 +100,8 @@ add ImageUpload.vue
 
 composer require predis/predis
 add TrendingThreadsTest.php
+add App\Trending
+
 
 
 
