@@ -98,6 +98,9 @@ php artisan storage:link
 add AvatarForm.vue
 add ImageUpload.vue
 
+composer require predis/predis
+add TrendingThreadsTest.php
+
 
 
 

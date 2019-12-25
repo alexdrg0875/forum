@@ -70,29 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/profiles/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AvatarForm.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/AvatarForm.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageUpload.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/ImageUpload.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -106,11 +88,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+            <state relative-caret-position="556">
+              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/threads/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrendingThreadsTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/TrendingThreadsTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#33#70#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadsController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#40#55#0#PHP" expanded="true" />
+                <marker date="1577302499440" expanded="true" signature="2473:2623" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,6 +192,7 @@
       <find>status codes</find>
       <find>file</find>
       <find>file</find>
+      <find>{{ $thread-&gt;title }}</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -187,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Spam.php" />
         <option value="$PROJECT_DIR$/tests/Unit/SpamTest.php" />
         <option value="$PROJECT_DIR$/app/Inspections/InvalidKeywords.php" />
         <option value="$PROJECT_DIR$/app/Inspections/KeyHeldDown.php" />
@@ -221,8 +237,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/UsersController.php" />
         <option value="$PROJECT_DIR$/resources/js/components/NewReply.vue" />
         <option value="$PROJECT_DIR$/resources/views/threads/_list.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/threads/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/app/Policies/UserPolicy.php" />
@@ -238,6 +252,9 @@
         <option value="$PROJECT_DIR$/tests/Feature/AddAvatarTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/UserTest.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/TrendingThreadsTest.php" />
+        <option value="$PROJECT_DIR$/resources/views/threads/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
       </list>
     </option>
   </component>
@@ -341,6 +358,7 @@
       <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -545,6 +563,36 @@
               <item name="forum" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Feature" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -553,7 +601,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="userAv&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/Api/UserAvatarController.php&#10;user&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;auth&#9;null&#9;null&#10;profiles&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/profiles&#10;userA&#9;null&#9;null&#10;web&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;thre&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;index&#9;null&#9;null&#10;we&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;usersco&#9;null&#9;null&#10;reply&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;repl&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Unit/ReplyTest.php&#10;threads&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;eventservic&#9;null&#9;null&#10;replie&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;user.&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;status codes&#9;null&#9;null&#10;status c&#9;null&#9;null&#10;apser&#9;null&#9;null&#10;thread&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;eventser&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/EventServiceProvider.php&#10;app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;r/app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/app.js&#10;nav&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/nav.blade.php&#10;databaseNo&#9;null&#9;null&#10;еркуфвыги&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/ThreadSubscription.php&#10;thread\sho&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;controll&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadSubscriptionsController.php&#10;threadsu&#9;null&#9;null&#10;partic&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/ParticipateInThreadsTest.php&#10;threadfil&#9;null&#9;null&#10;re&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;fav&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Favorite.php&#10;reco&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/RecordsActivity.php&#10;create&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/CreateThreadsTest.php&#10;prof&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ProfilesController.php&#10;profi&#9;null&#9;null&#10;se&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AuthServiceProvider.php&#10;auth s&#9;null&#9;null&#10;filt&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Filters/ThreadFilters.php&#10;thr&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;appser&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AppServiceProvider.php&#10;rep&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/reply.blade.php&#10;fa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/FavoritesController.php&#10;favo&#9;null&#9;null&#10;builder&#9;null&#9;null&#10;fun&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/utilites/functions.php&#10;threa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;show&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;help&#9;FILE&#9;file://D:/OSPanel/domains/forum/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php" />
+    <property name="SearchEverywhereHistoryKey" value="threadsc&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;index&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/index.blade.php&#10;userAv&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/Api/UserAvatarController.php&#10;user&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;auth&#9;null&#9;null&#10;profiles&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/profiles&#10;userA&#9;null&#9;null&#10;web&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;thre&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;we&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;usersco&#9;null&#9;null&#10;reply&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;repl&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Unit/ReplyTest.php&#10;threads&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;eventservic&#9;null&#9;null&#10;replie&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;user.&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;status codes&#9;null&#9;null&#10;status c&#9;null&#9;null&#10;apser&#9;null&#9;null&#10;thread&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;eventser&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/EventServiceProvider.php&#10;app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;r/app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/app.js&#10;nav&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/nav.blade.php&#10;databaseNo&#9;null&#9;null&#10;еркуфвыги&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/ThreadSubscription.php&#10;thread\sho&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;controll&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadSubscriptionsController.php&#10;threadsu&#9;null&#9;null&#10;partic&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/ParticipateInThreadsTest.php&#10;threadfil&#9;null&#9;null&#10;re&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;fav&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Favorite.php&#10;reco&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/RecordsActivity.php&#10;create&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/CreateThreadsTest.php&#10;prof&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ProfilesController.php&#10;profi&#9;null&#9;null&#10;se&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AuthServiceProvider.php&#10;auth s&#9;null&#9;null&#10;filt&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Filters/ThreadFilters.php&#10;thr&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;appser&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AppServiceProvider.php&#10;rep&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/reply.blade.php&#10;fa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/FavoritesController.php&#10;favo&#9;null&#9;null&#10;builder&#9;null&#9;null&#10;fun&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/utilites/functions.php&#10;threa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;show&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MariaDB&#10;MySQL" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit 6+" />
@@ -585,15 +633,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.tests">
-    <configuration name="AddAvatarTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\AddAvatarTest" file="$PROJECT_DIR$/tests/Feature/AddAvatarTest.php" scope="Class" />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read">
     <configuration name="AddAvatarTest.a_user_may_add_an_avatar_to_their_profile" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\AddAvatarTest" file="$PROJECT_DIR$/tests/Feature/AddAvatarTest.php" method="a_user_may_add_an_avatar_to_their_profile" scope="Method" />
     </configuration>
     <configuration name="CreateThreadsTest.an_authenticated_user_can_create_new_forum_threads" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\CreateThreadsTest" file="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" method="an_authenticated_user_can_create_new_forum_threads" scope="Method" />
+    </configuration>
+    <configuration name="TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\TrendingThreadsTest" file="$PROJECT_DIR$/tests/Feature/TrendingThreadsTest.php" method="it_increments_a_threads_score_each_time_it_is_read" scope="Method" />
     </configuration>
     <configuration name="UserTest.a_user_can_determine_their_avatar_path" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="a_user_can_determine_their_avatar_path" scope="Method" />
@@ -603,18 +651,18 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.AddAvatarTest.a_user_may_add_an_avatar_to_their_profile" />
-      <item itemvalue="PHPUnit.AddAvatarTest" />
       <item itemvalue="PHPUnit.UserTest.a_user_can_determine_their_avatar_path" />
       <item itemvalue="PHPUnit.tests" />
       <item itemvalue="PHPUnit.CreateThreadsTest.an_authenticated_user_can_create_new_forum_threads" />
+      <item itemvalue="PHPUnit.TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read" />
         <item itemvalue="PHPUnit.tests" />
         <item itemvalue="PHPUnit.CreateThreadsTest.an_authenticated_user_can_create_new_forum_threads" />
         <item itemvalue="PHPUnit.UserTest.a_user_can_determine_their_avatar_path" />
         <item itemvalue="PHPUnit.AddAvatarTest.a_user_may_add_an_avatar_to_their_profile" />
-        <item itemvalue="PHPUnit.AddAvatarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -639,44 +687,44 @@
       <workItem from="1575360250538" duration="88161000" />
       <workItem from="1576147977415" duration="9448000" />
       <workItem from="1576247973971" duration="35182000" />
-      <workItem from="1576859984907" duration="26874000" />
+      <workItem from="1576859984907" duration="33961000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddAvatarTest_a_user_may_add_an_avatar_to_their_profile - 2019.12.22 at 23h 06m 17s.xml">
-      <configuration name="AddAvatarTest.a_user_may_add_an_avatar_to_their_profile" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TrendingThreadsTest_it_increments_a_threads_score_each_time_it_is_read - 2019.12.25 at 22h 06m 30s.xml">
+      <configuration name="TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="AddAvatarTest_a_user_may_add_an_avatar_to_their_profile - 2019.12.22 at 23h 07m 12s.xml">
-      <configuration name="AddAvatarTest.a_user_may_add_an_avatar_to_their_profile" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TrendingThreadsTest_it_increments_a_threads_score_each_time_it_is_read - 2019.12.25 at 22h 06m 40s.xml">
+      <configuration name="TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="UserTest_a_user_can_determine_their_avatar_path - 2019.12.22 at 23h 08m 11s.xml">
-      <configuration name="UserTest.a_user_can_determine_their_avatar_path" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TrendingThreadsTest_it_increments_a_threads_score_each_time_it_is_read - 2019.12.25 at 22h 07m 22s.xml">
+      <configuration name="TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="UserTest_a_user_can_determine_their_avatar_path - 2019.12.22 at 23h 09m 10s.xml">
-      <configuration name="UserTest.a_user_can_determine_their_avatar_path" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TrendingThreadsTest_it_increments_a_threads_score_each_time_it_is_read - 2019.12.25 at 22h 07m 51s.xml">
+      <configuration name="TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="UserTest_a_user_can_determine_their_avatar_path - 2019.12.22 at 23h 10m 16s.xml">
-      <configuration name="UserTest.a_user_can_determine_their_avatar_path" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TrendingThreadsTest_it_increments_a_threads_score_each_time_it_is_read - 2019.12.25 at 22h 08m 08s.xml">
+      <configuration name="TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="UserTest_a_user_can_determine_their_avatar_path - 2019.12.22 at 23h 11m 19s.xml">
-      <configuration name="UserTest.a_user_can_determine_their_avatar_path" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TrendingThreadsTest_it_increments_a_threads_score_each_time_it_is_read - 2019.12.25 at 22h 08m 32s.xml">
+      <configuration name="TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="UserTest_a_user_can_determine_their_avatar_path - 2019.12.22 at 23h 11m 43s.xml">
-      <configuration name="UserTest.a_user_can_determine_their_avatar_path" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TrendingThreadsTest_it_increments_a_threads_score_each_time_it_is_read - 2019.12.25 at 22h 08m 57s.xml">
+      <configuration name="TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="UserTest_a_user_can_determine_their_avatar_path - 2019.12.22 at 23h 12m 04s.xml">
-      <configuration name="UserTest.a_user_can_determine_their_avatar_path" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TrendingThreadsTest_it_increments_a_threads_score_each_time_it_is_read - 2019.12.25 at 22h 09m 06s.xml">
+      <configuration name="TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateThreadsTest_an_authenticated_user_can_create_new_forum_threads - 2019.12.22 at 23h 13m 21s.xml">
-      <configuration name="CreateThreadsTest.an_authenticated_user_can_create_new_forum_threads" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TrendingThreadsTest_it_increments_a_threads_score_each_time_it_is_read - 2019.12.25 at 22h 09m 18s.xml">
+      <configuration name="TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2019.12.22 at 23h 14m 13s.xml">
-      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TrendingThreadsTest_it_increments_a_threads_score_each_time_it_is_read - 2019.12.25 at 22h 09m 24s.xml">
+      <configuration name="TrendingThreadsTest.it_increments_a_threads_score_each_time_it_is_read" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="394113000" />
+    <option name="totallyTimeSpent" value="401200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,11 +743,11 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50106496" side_tool="true" weight="0.375" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893504" visible="true" weight="0.375" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893504" visible="true" weight="0.3596154" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946752" weight="0.1951923" />
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939248" visible="true" weight="0.15388711" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939248" weight="0.15388711" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946752" weight="0.32884616" />
@@ -714,6 +762,30 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3298077" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49893504" weight="0.375" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939248" visible="true" weight="0.15388711" />
+      <window_info id="Structure" order="1" sideWeight="0.50060755" side_tool="true" weight="0.25772098" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32884616" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49946752" weight="0.32884616" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946752" visible="true" weight="0.1951923" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50106496" side_tool="true" weight="0.375" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.26634616" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3298077" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -727,12 +799,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Events/ThreadHasNewReply.php" />
-    <entry file="file://$PROJECT_DIR$/app/ThreadSubscription.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Events/ThreadReceivedNewReply.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -751,6 +817,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#23#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -861,23 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="98" selection-start-line="23" selection-start-column="98" selection-end-line="23" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/threads/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="162" column="1" selection-start-line="162" selection-start-column="1" selection-end-line="162" selection-end-column="1" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,16 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/AddAvatarTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-          <folding>
-            <element signature="e#33#66#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/UserTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -1054,10 +1096,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        <state relative-caret-position="556">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/AddAvatarTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding>
+            <element signature="e#33#66#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/TrendingThreadsTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#33#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+            <marker date="1577302499440" expanded="true" signature="2473:2623" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
