@@ -11,6 +11,10 @@ namespace App;
 
 use Illuminate\Support\Facades\Redis;
 
+/*
+ * This class uses when we use Redis for count visits of the thread. Another way use
+ *  database field 'visits' in threads table
+ */
 class Visits
 {
     protected $thread;

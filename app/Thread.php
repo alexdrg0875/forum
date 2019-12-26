@@ -130,8 +130,8 @@ class Thread extends Model
         return $this->updated_at > cache($key);
     }
 
-    public function visits()
-    {
-        return new Visits($this);
-    }
+//    public function visits() // its uses when thread visits with using Redis
+//    {
+//        return new Visits($this);
+//    }
 }

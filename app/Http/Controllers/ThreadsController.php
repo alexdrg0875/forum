@@ -96,7 +96,8 @@ class ThreadsController extends Controller
 
         $trending->push($thread);
 
-        $thread->visits()->record();
+    //        $thread->visits()->record(); // its uses when thread visits with using Redis
+        $thread->increment('visits');
 
         return view('threads.show', compact('thread'));
     }
