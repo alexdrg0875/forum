@@ -102,7 +102,7 @@ composer require predis/predis
 add TrendingThreadsTest.php
 add App\Trending
 
-add new trait RecordsVisits
+add new trait RecordsVisits and change this aproach by making new class named Visits and make refactoring
 
 
 
