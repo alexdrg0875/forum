@@ -102,7 +102,9 @@ composer require predis/predis
 add TrendingThreadsTest.php
 add App\Trending
 
-add new trait RecordsVisits and change this aproach by making new class named Visits and make refactoring, after all refactoring thats all will be deleted.:)
+add new trait RecordsVisits and change this aproach by making new class named Visits and make refactoring, after implementation another design thats all was deleted.:)
+
+php artisan make:middleware RedirectIfEmailNotConfirmed  add middleware to App\Http\Kernel.php
 
 
 
