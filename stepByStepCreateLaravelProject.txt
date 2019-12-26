@@ -106,6 +106,18 @@ add new trait RecordsVisits and change this aproach by making new class named Vi
 
 php artisan make:middleware RedirectIfEmailNotConfirmed  add middleware to App\Http\Kernel.php
 
+add RegistrationTest.php
+
+php artisan make:mail PleaseConfirmYourEmail --markdown="emails.confirm-email"
+register in EventServiceProvider new listener  Registered::class => ['App\Listeners\SendEmailConfirmationRequest']
+php artisan event:generate
+edit views\emails\confirm-email
+edit .env by put in smtp area email data from mailtrap.io mail box
+add to Auth\RegisterController to f create func confirmation_token, User::create change to User::forceCreate or add to User model $fillable - confirmation_token
+add Route /register/confirm
+php artisan make:controller "Api\RegisterConfirmationController"
+artisan migrate:refresh
+
 
 
 
