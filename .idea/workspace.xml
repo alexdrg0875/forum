@@ -47,6 +47,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+              <folding>
+                <element signature="e#7#389#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserFactory.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,32 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateThreadsTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateThreadsTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+            <state relative-caret-position="400">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-              <folding>
-                <element signature="e#7#389#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterConfirmationController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RegisterConfirmationController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/RegisterConfirmationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+            <state relative-caret-position="400">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="e#44#57#0#PHP" expanded="true" />
               </folding>
@@ -89,20 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RegistrationTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/RegistrationTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+            <state relative-caret-position="548">
+              <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
               <folding>
                 <element signature="e#33#69#0#PHP" expanded="true" />
               </folding>
@@ -131,23 +122,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PleaseConfirmYourEmail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Mail/PleaseConfirmYourEmail.php">
+      <file leaf-file-name="EventServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-              <folding>
-                <element signature="e#28#57#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="520">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="confirm-email.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/emails/confirm-email.blade.php">
+      <file leaf-file-name="PleaseConfirmYourEmail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Mail/PleaseConfirmYourEmail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="95" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
+            <state relative-caret-position="148">
+              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+              <folding>
+                <element signature="e#28#57#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,10 +173,12 @@
       <find>ser</find>
       <find>subscribe</find>
       <find>serial</find>
-      <find />
+      <find>status codes</find>
       <find>file</find>
-      <find />
-      <find />
+      <find>file</find>
+      <find>{{ $thread-&gt;title }}</find>
+      <find>'/login'</find>
+      <find>'/threads/create'</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -239,15 +232,15 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/RegisterConfirmationController.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/confirm-email.blade.php" />
+        <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
         <option value="$PROJECT_DIR$/app/Listeners/SendEmailConfirmationRequest.php" />
         <option value="$PROJECT_DIR$/app/Mail/PleaseConfirmYourEmail.php" />
-        <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/RegisterConfirmationController.php" />
       </list>
     </option>
   </component>
@@ -568,7 +561,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;regis&#9;null&#9;null&#10;create&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2014_10_12_000000_create_users_table.php&#10;user&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;eventser&#9;null&#9;null&#10;service&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AuthServiceProvider.php&#10;flash&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/components/flash.vue&#10;kerne&#9;null&#9;null&#10;middle&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Middleware&#10;fac&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/factories/UserFactory.php&#10;crea&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2014_10_12_000000_create_users_table.php&#10;threads&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;migrat&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations&#10;thread&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;thre&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;threadsc&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;index&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/index.blade.php&#10;userAv&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/Api/UserAvatarController.php&#10;auth&#9;null&#9;null&#10;profiles&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/profiles&#10;userA&#9;null&#9;null&#10;we&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;usersco&#9;null&#9;null&#10;reply&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;repl&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Unit/ReplyTest.php&#10;eventservic&#9;null&#9;null&#10;replie&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;user.&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;status codes&#9;null&#9;null&#10;status c&#9;null&#9;null&#10;apser&#9;null&#9;null&#10;app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;r/app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/app.js&#10;nav&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/nav.blade.php&#10;databaseNo&#9;null&#9;null&#10;еркуфвыги&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/ThreadSubscription.php&#10;thread\sho&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;controll&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadSubscriptionsController.php&#10;threadsu&#9;null&#9;null&#10;partic&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/ParticipateInThreadsTest.php&#10;threadfil&#9;null&#9;null&#10;re&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;fav&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Favorite.php&#10;reco&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/RecordsActivity.php&#10;prof&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ProfilesController.php&#10;profi&#9;null&#9;null&#10;se&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AuthServiceProvider.php&#10;auth s&#9;null&#9;null&#10;filt&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Filters/ThreadFilters.php&#10;thr&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php" />
+    <property name="SearchEverywhereHistoryKey" value="we&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;plead&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Mail/PleaseConfirmYourEmail.php&#10;eventser&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/EventServiceProvider.php&#10;web&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;regis&#9;null&#9;null&#10;create&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2014_10_12_000000_create_users_table.php&#10;user&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;service&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AuthServiceProvider.php&#10;flash&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/components/flash.vue&#10;kerne&#9;null&#9;null&#10;middle&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Middleware&#10;fac&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/factories/UserFactory.php&#10;crea&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2014_10_12_000000_create_users_table.php&#10;threads&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;migrat&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations&#10;thread&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;thre&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;threadsc&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;index&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/index.blade.php&#10;userAv&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/Api/UserAvatarController.php&#10;auth&#9;null&#9;null&#10;profiles&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/profiles&#10;userA&#9;null&#9;null&#10;usersco&#9;null&#9;null&#10;reply&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;repl&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Unit/ReplyTest.php&#10;eventservic&#9;null&#9;null&#10;replie&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;user.&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;status codes&#9;null&#9;null&#10;status c&#9;null&#9;null&#10;apser&#9;null&#9;null&#10;app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;r/app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/app.js&#10;nav&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/nav.blade.php&#10;databaseNo&#9;null&#9;null&#10;еркуфвыги&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/ThreadSubscription.php&#10;thread\sho&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;controll&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadSubscriptionsController.php&#10;threadsu&#9;null&#9;null&#10;partic&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/ParticipateInThreadsTest.php&#10;threadfil&#9;null&#9;null&#10;re&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;fav&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Favorite.php&#10;reco&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/RecordsActivity.php&#10;prof&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ProfilesController.php&#10;profi&#9;null&#9;null&#10;se&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AuthServiceProvider.php&#10;auth s&#9;null&#9;null&#10;filt&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Filters/ThreadFilters.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MariaDB&#10;MySQL" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit 6+" />
@@ -601,15 +594,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.CreateThreadsTest.authenticated_users_must_first_confirm_their_email_address_before_creating_threads">
-    <configuration name="CreateThreadsTest.authenticated_users_must_first_confirm_their_email_address_before_creating_threads" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\CreateThreadsTest" file="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" method="authenticated_users_must_first_confirm_their_email_address_before_creating_threads" scope="Method" />
+  <component name="RunManager" selected="PHPUnit.tests">
+    <configuration name="CreateThreadsTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\CreateThreadsTest" file="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" scope="Class" />
     </configuration>
     <configuration name="RegistrationTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\RegistrationTest" file="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" scope="Class" />
     </configuration>
-    <configuration name="RegistrationTest.a_confirmation_email_is_sent_upon_registration" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\RegistrationTest" file="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" method="a_confirmation_email_is_sent_upon_registration" scope="Method" />
+    <configuration name="RegistrationTest.confirming_invalid_token" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\RegistrationTest" file="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" method="confirming_invalid_token" scope="Method" />
     </configuration>
     <configuration name="RegistrationTest.user_can_fully_confirm_their_email_addresses" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\RegistrationTest" file="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" method="user_can_fully_confirm_their_email_addresses" scope="Method" />
@@ -618,19 +611,19 @@
       <TestRunner directory="$PROJECT_DIR$/tests" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.tests" />
-      <item itemvalue="PHPUnit.CreateThreadsTest.authenticated_users_must_first_confirm_their_email_address_before_creating_threads" />
-      <item itemvalue="PHPUnit.RegistrationTest.a_confirmation_email_is_sent_upon_registration" />
       <item itemvalue="PHPUnit.RegistrationTest.user_can_fully_confirm_their_email_addresses" />
       <item itemvalue="PHPUnit.RegistrationTest" />
+      <item itemvalue="PHPUnit.CreateThreadsTest" />
+      <item itemvalue="PHPUnit.tests" />
+      <item itemvalue="PHPUnit.RegistrationTest.confirming_invalid_token" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.CreateThreadsTest.authenticated_users_must_first_confirm_their_email_address_before_creating_threads" />
         <item itemvalue="PHPUnit.tests" />
-        <item itemvalue="PHPUnit.RegistrationTest" />
+        <item itemvalue="PHPUnit.RegistrationTest.confirming_invalid_token" />
         <item itemvalue="PHPUnit.RegistrationTest.user_can_fully_confirm_their_email_addresses" />
-        <item itemvalue="PHPUnit.RegistrationTest.a_confirmation_email_is_sent_upon_registration" />
+        <item itemvalue="PHPUnit.RegistrationTest" />
+        <item itemvalue="PHPUnit.CreateThreadsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -655,44 +648,44 @@
       <workItem from="1575360250538" duration="88161000" />
       <workItem from="1576147977415" duration="9448000" />
       <workItem from="1576247973971" duration="35182000" />
-      <workItem from="1576859984907" duration="64394000" />
+      <workItem from="1576859984907" duration="67649000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegistrationTest_user_can_fully_confirm_their_email_addresses - 2019.12.26 at 21h 48m 18s.xml">
-      <configuration name="RegistrationTest.user_can_fully_confirm_their_email_addresses" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="RegistrationTest_user_can_fully_confirm_their_email_addresses - 2019.12.26 at 21h 48m 32s.xml">
-      <configuration name="RegistrationTest.user_can_fully_confirm_their_email_addresses" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="RegistrationTest_user_can_fully_confirm_their_email_addresses - 2019.12.26 at 21h 50m 29s.xml">
-      <configuration name="RegistrationTest.user_can_fully_confirm_their_email_addresses" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="RegistrationTest_user_can_fully_confirm_their_email_addresses - 2019.12.26 at 21h 52m 01s.xml">
-      <configuration name="RegistrationTest.user_can_fully_confirm_their_email_addresses" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="RegistrationTest_user_can_fully_confirm_their_email_addresses - 2019.12.26 at 22h 09m 56s.xml">
-      <configuration name="RegistrationTest.user_can_fully_confirm_their_email_addresses" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="RegistrationTest - 2019.12.26 at 22h 28m 20s.xml">
+    <history-entry file="RegistrationTest - 2019.12.26 at 23h 22m 40s.xml">
       <configuration name="RegistrationTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2019.12.26 at 22h 37m 16s.xml">
-      <configuration name="RegistrationTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="RegistrationTest_user_can_fully_confirm_their_email_addresses - 2019.12.26 at 23h 23m 53s.xml">
+      <configuration name="RegistrationTest.user_can_fully_confirm_their_email_addresses" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2019.12.26 at 22h 37m 26s.xml">
+    <history-entry file="RegistrationTest_user_can_fully_confirm_their_email_addresses - 2019.12.26 at 23h 24m 17s.xml">
+      <configuration name="RegistrationTest.user_can_fully_confirm_their_email_addresses" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RegistrationTest_user_can_fully_confirm_their_email_addresses - 2019.12.26 at 23h 25m 00s.xml">
+      <configuration name="RegistrationTest.user_can_fully_confirm_their_email_addresses" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RegistrationTest_user_can_fully_confirm_their_email_addresses - 2019.12.26 at 23h 25m 09s.xml">
+      <configuration name="RegistrationTest.user_can_fully_confirm_their_email_addresses" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2019.12.26 at 23h 25m 40s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateThreadsTest_authenticated_users_must_first_confirm_their_email_address_before_creating_threads - 2019.12.26 at 22h 43m 46s.xml">
-      <configuration name="CreateThreadsTest.authenticated_users_must_first_confirm_their_email_address_before_creating_threads" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="RegistrationTest_confirming_invalid_token - 2019.12.26 at 23h 30m 04s.xml">
+      <configuration name="RegistrationTest.confirming_invalid_token" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2019.12.26 at 22h 43m 54s.xml">
+    <history-entry file="RegistrationTest_confirming_invalid_token - 2019.12.26 at 23h 33m 42s.xml">
+      <configuration name="RegistrationTest.confirming_invalid_token" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RegistrationTest_confirming_invalid_token - 2019.12.26 at 23h 34m 06s.xml">
+      <configuration name="RegistrationTest.confirming_invalid_token" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2019.12.26 at 23h 34m 24s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431633000" />
+    <option name="totallyTimeSpent" value="434888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -711,7 +704,7 @@
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50106496" side_tool="true" weight="0.375" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49893504" visible="true" weight="0.29615384" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49893504" visible="true" weight="0.29615384" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946752" weight="0.19423077" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
@@ -994,27 +987,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="28" column="9" selection-start-line="26" selection-start-column="7" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,20 +1008,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/RegisterConfirmationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="e#44#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1053,6 +1019,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1066,6 +1039,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/PleaseConfirmYourEmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+          <folding>
+            <element signature="e#28#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/RegistrationTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+          <folding>
+            <element signature="e#33#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="das://dedc0260-f685-41c1-8156-409dcebccb87/schema/forum/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1073,37 +1090,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mail/PleaseConfirmYourEmail.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/RegisterConfirmationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="400">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
-            <element signature="e#28#57#0#PHP" expanded="true" />
+            <element signature="e#44#57#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/RegistrationTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
-          <folding>
-            <element signature="e#33#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
         </state>
       </provider>
     </entry>
