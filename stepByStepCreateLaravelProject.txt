@@ -102,6 +102,8 @@ composer require predis/predis
 add TrendingThreadsTest.php
 add App\Trending
 
+add new trait RecordsVisits
+
 
 
 
