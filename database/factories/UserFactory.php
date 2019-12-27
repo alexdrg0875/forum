@@ -1,6 +1,7 @@
 <?php
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
+
 use App\User;
 use App\Thread;
 use App\Reply;
@@ -45,7 +46,8 @@ $factory->define(Channel::class, function (Faker $faker) {
     ];
 });
 
-$factory->define(Thread::class, function ($faker){
+$factory->define(Thread::class, function ($faker) {
+    $title = $faker->sentence;
     return [
         'user_id' => function () {
             return factory('App\User')->create()->id;
@@ -53,13 +55,14 @@ $factory->define(Thread::class, function ($faker){
         'channel_id' => function () {
             return factory('App\Channel')->create()->id;
         },
-        'title' => $faker->sentence,
+        'title' => $title,
         'body' => $faker->paragraph,
         'visits' => 0,
+        'slug' => Str::slug($title)
     ];
 });
 
-$factory->define(Reply::class, function ($faker){
+$factory->define(Reply::class, function ($faker) {
     return [
         'thread_id' => function () {
             return factory('App\Thread')->create()->id;
@@ -71,11 +74,11 @@ $factory->define(Reply::class, function ($faker){
     ];
 });
 
-$factory->define(\Illuminate\Notifications\DatabaseNotification::class, function ($faker){
+$factory->define(\Illuminate\Notifications\DatabaseNotification::class, function ($faker) {
     return [
         'id' => Ramsey\Uuid\Uuid::uuid4()->toString(),
         'type' => 'App\Notification\ThreadWasUpdated',
-        'notifiable_id' => function() {
+        'notifiable_id' => function () {
             return auth()->id() ?: factory('App\User')->create()->id;
         },
         'notifiable_type' => 'App\User',
