@@ -59,8 +59,8 @@
       <file leaf-file-name="CreateThreadsTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="99" column="56" selection-start-line="99" selection-start-column="56" selection-end-line="99" selection-end-column="56" />
+            <state relative-caret-position="440">
+              <caret line="107" column="43" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -110,8 +110,8 @@
       <file leaf-file-name="Thread.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Thread.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
+            <state relative-caret-position="2800">
+              <caret line="150" selection-start-line="150" selection-end-line="150" />
               <folding>
                 <element signature="e#23#56#0#PHP" expanded="true" />
               </folding>
@@ -122,30 +122,12 @@
       <file leaf-file-name="ThreadsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+            <state relative-caret-position="360">
+              <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
               <folding>
                 <element signature="e#40#55#0#PHP" expanded="true" />
-                <marker date="1577446935411" expanded="true" signature="2682:2683" ph="..." />
+                <marker date="1577458148475" expanded="true" signature="2824:2825" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/threads/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2019_11_13_153644_create_threads_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_13_153644_create_threads_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -243,10 +225,10 @@
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ThreadTest.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_11_13_153644_create_threads_table.php" />
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
         <option value="$PROJECT_DIR$/app/Thread.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_11_13_153644_create_threads_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" />
       </list>
     </option>
@@ -356,8 +338,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1167" />
+    <option name="height" value="1137" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -577,15 +560,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.CreateThreadsTest">
+  <component name="RunManager" selected="PHPUnit.CreateThreadsTest.a_thread_with_a_title_that_ends_in_a_number_should_generate_a_proper_slug">
     <configuration name="CreateThreadsTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\CreateThreadsTest" file="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" scope="Class" />
     </configuration>
     <configuration name="CreateThreadsTest.a_thread_requires_a_unique_slug" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\CreateThreadsTest" file="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" method="a_thread_requires_a_unique_slug" scope="Method" />
     </configuration>
-    <configuration name="RegistrationTest.user_can_fully_confirm_their_email_addresses" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\RegistrationTest" file="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" method="user_can_fully_confirm_their_email_addresses" scope="Method" />
+    <configuration name="CreateThreadsTest.a_thread_with_a_title_that_ends_in_a_number_should_generate_a_proper_slug" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\CreateThreadsTest" file="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" method="a_thread_with_a_title_that_ends_in_a_number_should_generate_a_proper_slug" scope="Method" />
     </configuration>
     <configuration name="ThreadTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\ThreadTest" file="$PROJECT_DIR$/tests/Unit/ThreadTest.php" scope="Class" />
@@ -594,19 +577,19 @@
       <TestRunner directory="$PROJECT_DIR$/tests" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.RegistrationTest.user_can_fully_confirm_their_email_addresses" />
       <item itemvalue="PHPUnit.tests" />
       <item itemvalue="PHPUnit.ThreadTest" />
       <item itemvalue="PHPUnit.CreateThreadsTest.a_thread_requires_a_unique_slug" />
       <item itemvalue="PHPUnit.CreateThreadsTest" />
+      <item itemvalue="PHPUnit.CreateThreadsTest.a_thread_with_a_title_that_ends_in_a_number_should_generate_a_proper_slug" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.CreateThreadsTest" />
+        <item itemvalue="PHPUnit.CreateThreadsTest.a_thread_with_a_title_that_ends_in_a_number_should_generate_a_proper_slug" />
         <item itemvalue="PHPUnit.CreateThreadsTest.a_thread_requires_a_unique_slug" />
+        <item itemvalue="PHPUnit.CreateThreadsTest" />
         <item itemvalue="PHPUnit.tests" />
         <item itemvalue="PHPUnit.ThreadTest" />
-        <item itemvalue="PHPUnit.RegistrationTest.user_can_fully_confirm_their_email_addresses" />
       </list>
     </recent_temporary>
   </component>
@@ -632,44 +615,44 @@
       <workItem from="1576147977415" duration="9448000" />
       <workItem from="1576247973971" duration="35182000" />
       <workItem from="1576859984907" duration="68694000" />
-      <workItem from="1577435507169" duration="11108000" />
+      <workItem from="1577435507169" duration="16577000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 15h 07m 00s.xml">
+    <history-entry file="CreateThreadsTest_a_thread_with_a_title_that_ends_in_a_number_should_generate_a_proper_slug - 2019.12.27 at 17h 32m 53s.xml">
+      <configuration name="CreateThreadsTest.a_thread_with_a_title_that_ends_in_a_number_should_generate_a_proper_slug" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 17h 32m 58s.xml">
       <configuration name="CreateThreadsTest.a_thread_requires_a_unique_slug" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 15h 07m 14s.xml">
+    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 17h 33m 26s.xml">
       <configuration name="CreateThreadsTest.a_thread_requires_a_unique_slug" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 15h 07m 48s.xml">
+    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 17h 34m 10s.xml">
       <configuration name="CreateThreadsTest.a_thread_requires_a_unique_slug" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 15h 08m 36s.xml">
+    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 17h 34m 48s.xml">
       <configuration name="CreateThreadsTest.a_thread_requires_a_unique_slug" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 15h 08m 45s.xml">
+    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 17h 35m 21s.xml">
       <configuration name="CreateThreadsTest.a_thread_requires_a_unique_slug" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 15h 24m 00s.xml">
+    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 17h 43m 46s.xml">
       <configuration name="CreateThreadsTest.a_thread_requires_a_unique_slug" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 15h 24m 08s.xml">
+    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 17h 45m 46s.xml">
       <configuration name="CreateThreadsTest.a_thread_requires_a_unique_slug" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 15h 24m 23s.xml">
-      <configuration name="CreateThreadsTest.a_thread_requires_a_unique_slug" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="CreateThreadsTest_a_thread_with_a_title_that_ends_in_a_number_should_generate_a_proper_slug - 2019.12.27 at 17h 46m 20s.xml">
+      <configuration name="CreateThreadsTest.a_thread_with_a_title_that_ends_in_a_number_should_generate_a_proper_slug" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 15h 27m 41s.xml">
-      <configuration name="CreateThreadsTest.a_thread_requires_a_unique_slug" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateThreadsTest_a_thread_requires_a_unique_slug - 2019.12.27 at 15h 30m 17s.xml">
-      <configuration name="CreateThreadsTest.a_thread_requires_a_unique_slug" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="CreateThreadsTest_a_thread_with_a_title_that_ends_in_a_number_should_generate_a_proper_slug - 2019.12.27 at 17h 46m 50s.xml">
+      <configuration name="CreateThreadsTest.a_thread_with_a_title_that_ends_in_a_number_should_generate_a_proper_slug" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="447041000" />
+    <option name="totallyTimeSpent" value="452510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,14 +664,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1936" height="1167" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1137" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32884616" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50106496" side_tool="true" weight="0.375" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49893504" visible="true" weight="0.2958293" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49893504" visible="true" weight="0.3046953" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946752" weight="0.19398642" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809524" visible="true" weight="0.16347177" />
@@ -991,13 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_13_153644_create_threads_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1022,24 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/threads/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-            <marker date="1577446935411" expanded="true" signature="2682:2683" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/ThreadTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1057,20 +1015,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_13_153644_create_threads_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Thread.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
+        <state relative-caret-position="2800">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
           <folding>
             <element signature="e#23#56#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+            <marker date="1577458148475" expanded="true" signature="2824:2825" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="99" column="56" selection-start-line="99" selection-start-column="56" selection-end-line="99" selection-end-column="56" />
+        <state relative-caret-position="440">
+          <caret line="107" column="43" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
         </state>
       </provider>
     </entry>
