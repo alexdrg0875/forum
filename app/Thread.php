@@ -69,7 +69,7 @@ class Thread extends Model
     {
         $reply = $this->replies()->create($reply);
 
-            event(new ThreadReceivedNewReply($reply));
+        event(new ThreadReceivedNewReply($reply));
 
         return $reply;
     }
@@ -141,7 +141,7 @@ class Thread extends Model
 //    }
     public function getRouteKeyName()
     {
-            return 'slug';
+        return 'slug';
     }
 
     public function setSlugAttribute($value)
@@ -152,7 +152,7 @@ class Thread extends Model
 
         $count = 2;
 
-        while(static::whereSlug($slug)->exists()) {
+        while (static::whereSlug($slug)->exists()) {
             $slug = "{$original}-" . $count++;
         }
 
@@ -177,4 +177,9 @@ class Thread extends Model
 //
 //        return "{$slug}-2";
 //    }
+
+    public function markBestReply(Reply $reply)
+    {
+        $this->update(['best_reply_id' => $reply->id]);
+    }
 }

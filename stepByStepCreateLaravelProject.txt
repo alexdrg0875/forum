@@ -118,6 +118,10 @@ add Route /register/confirm
 php artisan make:controller "Api\RegisterConfirmationController"
 artisan migrate:refresh
 
+add BestReplyTest
+php artisan make:controller BestRepliesController
+
+
 
 
 
