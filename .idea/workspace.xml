@@ -42,41 +42,40 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="forum: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="forum: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="users: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <file leaf-file-name="ModelFactory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="140">
+              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reply.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/Reply.vue">
+      <file leaf-file-name="BestReplyTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/BestReplyTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+            <state relative-caret-position="160">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="e#33#67#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
+      <file leaf-file-name="TestCase.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="336">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="e#25#52#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,17 +83,17 @@
       <file leaf-file-name="Reply.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Reply.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1540">
-              <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+            <state relative-caret-position="440">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trending.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Trending.php">
+      <file leaf-file-name="RepliesTableSeeder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/RepliesTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="420">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -146,9 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/UsersController.php" />
-        <option value="$PROJECT_DIR$/app/Policies/UserPolicy.php" />
-        <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/UserAvatarController.php" />
         <option value="$PROJECT_DIR$/resources/js/components/ImageUpload.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/AvatarForm.vue" />
@@ -180,10 +176,7 @@
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ReplyTest.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_11_13_153644_create_threads_table.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/BestReplyTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BestRepliesController.php" />
         <option value="$PROJECT_DIR$/app/Thread.php" />
         <option value="$PROJECT_DIR$/database/seeds/ThreadsTableSeeder.php" />
@@ -194,9 +187,15 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/js/components/NewReply.vue" />
-        <option value="$PROJECT_DIR$/app/Reply.php" />
         <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/components/Reply.vue" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Reply.php" />
+        <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_11_13_152855_create_replies_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_11_13_153644_create_threads_table.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/BestReplyTest.php" />
+        <option value="$PROJECT_DIR$/tests/TestCase.php" />
       </list>
     </option>
   </component>
@@ -437,6 +436,12 @@
               <item name="forum" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Feature" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -445,7 +450,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;create&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2019_11_13_153644_create_threads_table.php&#10;reply&#9;null&#9;null&#10;bestRepl&#9;null&#9;null&#10;replies&#9;null&#9;null&#10;we&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;plead&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Mail/PleaseConfirmYourEmail.php&#10;eventser&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/EventServiceProvider.php&#10;web&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;regis&#9;null&#9;null&#10;user&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;service&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AuthServiceProvider.php&#10;flash&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/components/flash.vue&#10;kerne&#9;null&#9;null&#10;middle&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Middleware&#10;fac&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/factories/UserFactory.php&#10;crea&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2014_10_12_000000_create_users_table.php&#10;threads&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;migrat&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations&#10;thread&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;thre&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;threadsc&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;index&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/index.blade.php&#10;userAv&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/Api/UserAvatarController.php&#10;auth&#9;null&#9;null&#10;profiles&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/profiles&#10;userA&#9;null&#9;null&#10;usersco&#9;null&#9;null&#10;repl&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Unit/ReplyTest.php&#10;eventservic&#9;null&#9;null&#10;replie&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;user.&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;status codes&#9;null&#9;null&#10;status c&#9;null&#9;null&#10;apser&#9;null&#9;null&#10;r/app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/app.js&#10;nav&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/nav.blade.php&#10;databaseNo&#9;null&#9;null&#10;еркуфвыги&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/ThreadSubscription.php&#10;thread\sho&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;controll&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadSubscriptionsController.php&#10;threadsu&#9;null&#9;null&#10;partic&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/ParticipateInThreadsTest.php&#10;threadfil&#9;null&#9;null&#10;re&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;fav&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Favorite.php&#10;reco&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/RecordsActivity.php&#10;prof&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ProfilesController.php&#10;profi&#9;null&#9;null&#10;se&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AuthServiceProvider.php" />
+    <property name="SearchEverywhereHistoryKey" value="create_&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2019_11_13_153644_create_threads_table.php&#10;web&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;create&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2019_11_13_153644_create_threads_table.php&#10;reply&#9;null&#9;null&#10;bestRepl&#9;null&#9;null&#10;replies&#9;null&#9;null&#10;we&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;plead&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Mail/PleaseConfirmYourEmail.php&#10;eventser&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/EventServiceProvider.php&#10;regis&#9;null&#9;null&#10;user&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;service&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AuthServiceProvider.php&#10;flash&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/components/flash.vue&#10;kerne&#9;null&#9;null&#10;middle&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Middleware&#10;fac&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/factories/UserFactory.php&#10;crea&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2014_10_12_000000_create_users_table.php&#10;threads&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;migrat&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations&#10;thread&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;thre&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;threadsc&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;index&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/index.blade.php&#10;userAv&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/Api/UserAvatarController.php&#10;auth&#9;null&#9;null&#10;profiles&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/profiles&#10;userA&#9;null&#9;null&#10;usersco&#9;null&#9;null&#10;repl&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Unit/ReplyTest.php&#10;eventservic&#9;null&#9;null&#10;replie&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;user.&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;status codes&#9;null&#9;null&#10;status c&#9;null&#9;null&#10;apser&#9;null&#9;null&#10;r/app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/app.js&#10;nav&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/nav.blade.php&#10;databaseNo&#9;null&#9;null&#10;еркуфвыги&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/ThreadSubscription.php&#10;thread\sho&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;controll&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadSubscriptionsController.php&#10;threadsu&#9;null&#9;null&#10;partic&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Feature/ParticipateInThreadsTest.php&#10;threadfil&#9;null&#9;null&#10;re&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Reply.php&#10;fav&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Favorite.php&#10;reco&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/RecordsActivity.php&#10;prof&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ProfilesController.php&#10;profi&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MariaDB&#10;MySQL" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit 6+" />
@@ -486,29 +491,29 @@
     <configuration name="BestReplyTest.a_thread_creator_may_mark_any_reply_as_the_best_reply" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\BestReplyTest" file="$PROJECT_DIR$/tests/Feature/BestReplyTest.php" method="a_thread_creator_may_mark_any_reply_as_the_best_reply" scope="Method" />
     </configuration>
+    <configuration name="BestReplyTest.if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\BestReplyTest" file="$PROJECT_DIR$/tests/Feature/BestReplyTest.php" method="if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that" scope="Method" />
+    </configuration>
     <configuration name="BestReplyTest.only_the_thread_creator_may_mark_a_reply_as_best" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\BestReplyTest" file="$PROJECT_DIR$/tests/Feature/BestReplyTest.php" method="only_the_thread_creator_may_mark_a_reply_as_best" scope="Method" />
-    </configuration>
-    <configuration name="ReplyTest.it_knows_if_it_is_the_best_reply" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\ReplyTest" file="$PROJECT_DIR$/tests/Unit/ReplyTest.php" method="it_knows_if_it_is_the_best_reply" scope="Method" />
     </configuration>
     <configuration name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$/tests" />
     </configuration>
     <list>
       <item itemvalue="PHPUnit.BestReplyTest.a_thread_creator_may_mark_any_reply_as_the_best_reply" />
-      <item itemvalue="PHPUnit.ReplyTest.it_knows_if_it_is_the_best_reply" />
       <item itemvalue="PHPUnit.BestReplyTest.only_the_thread_creator_may_mark_a_reply_as_best" />
       <item itemvalue="PHPUnit.BestReplyTest" />
       <item itemvalue="PHPUnit.tests" />
+      <item itemvalue="PHPUnit.BestReplyTest.if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="PHPUnit.tests" />
+        <item itemvalue="PHPUnit.BestReplyTest.if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that" />
         <item itemvalue="PHPUnit.BestReplyTest" />
         <item itemvalue="PHPUnit.BestReplyTest.only_the_thread_creator_may_mark_a_reply_as_best" />
         <item itemvalue="PHPUnit.BestReplyTest.a_thread_creator_may_mark_any_reply_as_the_best_reply" />
-        <item itemvalue="PHPUnit.ReplyTest.it_knows_if_it_is_the_best_reply" />
       </list>
     </recent_temporary>
   </component>
@@ -534,44 +539,44 @@
       <workItem from="1576147977415" duration="9448000" />
       <workItem from="1576247973971" duration="35182000" />
       <workItem from="1576859984907" duration="68694000" />
-      <workItem from="1577435507169" duration="33344000" />
+      <workItem from="1577435507169" duration="39626000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BestReplyTest_only_the_thread_creator_may_mark_a_reply_as_best - 2019.12.28 at 16h 25m 11s.xml">
-      <configuration name="BestReplyTest.only_the_thread_creator_may_mark_a_reply_as_best" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="BestReplyTest_if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that - 2019.12.28 at 20h 41m 32s.xml">
+      <configuration name="BestReplyTest.if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="BestReplyTest_only_the_thread_creator_may_mark_a_reply_as_best - 2019.12.28 at 16h 26m 03s.xml">
-      <configuration name="BestReplyTest.only_the_thread_creator_may_mark_a_reply_as_best" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="BestReplyTest_if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that - 2019.12.28 at 20h 44m 57s.xml">
+      <configuration name="BestReplyTest.if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="BestReplyTest_only_the_thread_creator_may_mark_a_reply_as_best - 2019.12.28 at 16h 29m 38s.xml">
-      <configuration name="BestReplyTest.only_the_thread_creator_may_mark_a_reply_as_best" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="BestReplyTest_if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that - 2019.12.28 at 21h 32m 10s.xml">
+      <configuration name="BestReplyTest.if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="BestReplyTest_only_the_thread_creator_may_mark_a_reply_as_best - 2019.12.28 at 16h 32m 55s.xml">
-      <configuration name="BestReplyTest.only_the_thread_creator_may_mark_a_reply_as_best" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="BestReplyTest_if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that - 2019.12.28 at 21h 33m 55s.xml">
+      <configuration name="BestReplyTest.if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="BestReplyTest - 2019.12.28 at 16h 33m 11s.xml">
-      <configuration name="BestReplyTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="BestReplyTest_if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that - 2019.12.28 at 21h 34m 09s.xml">
+      <configuration name="BestReplyTest.if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="BestReplyTest - 2019.12.28 at 16h 33m 50s.xml">
-      <configuration name="BestReplyTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="BestReplyTest_if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that - 2019.12.28 at 21h 34m 43s.xml">
+      <configuration name="BestReplyTest.if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="BestReplyTest - 2019.12.28 at 16h 35m 25s.xml">
-      <configuration name="BestReplyTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="BestReplyTest_if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that - 2019.12.28 at 21h 52m 29s.xml">
+      <configuration name="BestReplyTest.if_a_best_reply_is_deleted_then_the_thread_is_properly_updated_to_reflect_that" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2019.12.28 at 16h 35m 36s.xml">
+    <history-entry file="tests - 2019.12.28 at 21h 52m 39s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2019.12.28 at 16h 54m 26s.xml">
+    <history-entry file="tests - 2019.12.28 at 22h 00m 15s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2019.12.28 at 19h 19m 57s.xml">
+    <history-entry file="tests - 2019.12.28 at 22h 03m 38s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="469277000" />
+    <option name="totallyTimeSpent" value="475559000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -590,10 +595,10 @@
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50106496" side_tool="true" weight="0.375" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49893504" weight="0.3045587" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49893504" visible="true" weight="0.3045587" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946752" weight="0.18331717" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49809524" visible="true" weight="0.16364606" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809524" visible="true" weight="0.16364606" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32942432" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49946752" weight="0.32767233" />
@@ -622,51 +627,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/js/components/flash.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/emails/confirm-email.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="95" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mail/PleaseConfirmYourEmail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-          <folding>
-            <element signature="e#28#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Events/Registered.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Listeners/SendEmailConfirmationRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -679,13 +639,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Events/ThreadReceivedNewReply.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterConfirmationController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -728,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/ThreadTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -766,27 +712,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RepliesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_13_153644_create_threads_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -799,16 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/BestReplyTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
-          <folding>
-            <element signature="e#33#52#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,20 +759,6 @@
           <folding>
             <element signature="e#40#54#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://dedc0260-f685-41c1-8156-409dcebccb87/schema/forum/table/replies">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/RepliesTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -937,32 +842,11 @@
     <entry file="file://$PROJECT_DIR$/resources/views/threads/reply.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://dedc0260-f685-41c1-8156-409dcebccb87/schema/forum/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://dedc0260-f685-41c1-8156-409dcebccb87/schema/forum/table/threads">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/Replies.vue">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Reply.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -982,6 +866,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="687">
           <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="29" column="85" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://dedc0260-f685-41c1-8156-409dcebccb87/schema/forum/table/replies">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="458" selection-start-line="458" selection-end-line="458" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_16_190830_create_channels_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_22_162325_create_favorites_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Reply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_13_152855_create_replies_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://dedc0260-f685-41c1-8156-409dcebccb87/schema/forum/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://dedc0260-f685-41c1-8156-409dcebccb87/schema/forum/table/threads">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_13_153644_create_threads_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/RepliesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/BestReplyTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#33#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#25#52#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

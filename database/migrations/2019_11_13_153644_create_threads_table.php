@@ -22,8 +22,19 @@ class CreateThreadsTable extends Migration
             $table->unsignedInteger('visits')->default(0);
             $table->string('title');
             $table->text('body');
-            $table->unsignedInteger('best_reply_id')->nullable();
+            $table->unsignedBigInteger('best_reply_id')->nullable();
             $table->timestamps();
+
+            // it's property may call a SQL Error 1215 because this migration class fires after reply migration class
+            // and foreign key can't be associated. For resolve this issue is set later date in the name of migration
+            // class and due this que will change and error will disappear
+            // Also may need to delete tables manually and after that run php artisan migrate
+            // columns foreign key and id in foreign table must be same data format!
+
+            $table->foreign('best_reply_id')
+                ->references('id')
+                ->on('replies')
+                ->onDelete('set null');
         });
     }
 
