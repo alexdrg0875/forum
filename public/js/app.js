@@ -3536,11 +3536,15 @@ __webpack_require__.r(__webpack_exports__);
       editing: false,
       id: this.data.id,
       body: this.data.body,
-      isBest: false,
-      reply: this.data
+      // isBest: this.data.isBest,
+      reply: this.data,
+      thread: window.thread
     };
   },
   computed: {
+    isBest: function isBest() {
+      return this.thread.best_reply_id == this.id;
+    },
     ago: function ago() {
       return moment__WEBPACK_IMPORTED_MODULE_1___default()(this.data.created_at).fromNow() + '...';
     }
@@ -3560,7 +3564,8 @@ __webpack_require__.r(__webpack_exports__);
       this.$emit('deleted', this.data.id);
     },
     markBestReply: function markBestReply() {
-      this.isBest = true;
+      axios.post('/replies/' + this.data.id + '/best');
+      this.thread.best_reply_id = this.id;
     }
   }
 });
