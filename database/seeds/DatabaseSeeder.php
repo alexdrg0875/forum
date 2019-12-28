@@ -11,6 +11,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+//        Artisan::call('cache:clear');
+
+        $this->call([
+//             ThreadsTableSeeder::class,
+            RepliesTableSeeder::class,
+        ]);
     }
 }
