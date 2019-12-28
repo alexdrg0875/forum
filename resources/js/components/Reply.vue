@@ -27,8 +27,8 @@
             <div v-else v-html="body"></div>
         </div>
 
-        <div class="card-footer level" v-if="canUpdate">
-            <div v-if="canUpdate">
+        <div class="card-footer level">
+            <div v-if="authorize('updateReply',reply)">
                 <button class="btn btn-outline-primary btn-xs mr-1" @click="editing = true">Edit</button>
                 <button class="btn btn-danger btn-xs mr-1" @click="destroy">Delete</button>
             </div>
@@ -56,19 +56,13 @@
                 id: this.data.id,
                 body: this.data.body,
                 isBest: false,
+                reply: this.data
             };
         },
 
         computed: {
             ago() {
                 return moment(this.data.created_at).fromNow() + '...';
-            },
-
-            signedIn() {
-                return window.App.signedIn
-            },
-            canUpdate() {
-                return this.authorize(user => this.data.user_id == user.id);
             }
         },
 
@@ -81,15 +75,12 @@
                     .catch(error => {
                         flash(error.response.data, 'danger');
                     });
-
                 this.editing = false;
-
                 flash('Updated!');
             },
 
             destroy() {
                 axios.delete('/replies/' + this.data.id);
-
                 this.$emit('deleted', this.data.id);
             },
 
