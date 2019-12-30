@@ -121,6 +121,10 @@ artisan migrate:refresh
 add BestReplyTest
 php artisan make:controller BestRepliesController
 
+add LockThreadsTest
+php artisan make:controller LockedThreadsController
+php artisan make:middleware Administrator and register in kernel.php
+
 
 
 
