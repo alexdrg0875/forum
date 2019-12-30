@@ -125,7 +125,9 @@ add LockThreadsTest
 php artisan make:controller LockedThreadsController
 php artisan make:middleware Administrator and register in kernel.php
 
-https://laravel.com/docs/6.x/upgrade
+https://laravel.com/docs/6.x/upgrade - skip
+
+composer require kitetail/zttp
 
 
 

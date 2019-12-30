@@ -8,6 +8,7 @@ use App\Filters\ThreadFilters;
 use App\Trending;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use Zttp\Zttp;
 
 class ThreadsController extends Controller
 {
@@ -46,7 +47,7 @@ class ThreadsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Channel $channels)
     {
         //$channels = Channel::all(); // relocate to AppServiceProvider
         return view('threads.create', compact('channels'));
@@ -65,6 +66,18 @@ class ThreadsController extends Controller
             'body' => 'required|spamfree',
             'channel_id' => 'required|exists:channels,id' // looks to channels table and compare id with existing
         ]);
+
+        $response = Zttp::asFormParams()->post('https://www.google.com/recaptcha/api/siteverify', [
+            'secret' => config('services.recaptcha.secret'),
+            'response' => $request->input('g-recaptcha-response'),
+            'remoteip' => $_SERVER['REMOTE_ADDR']
+        ]);
+
+        if (! $response->json()['success']) {
+            throw new \Exception('Recaptcha filed');
+        }
+
+
 
         $thread = Thread::create([
             'user_id' => auth()->id(),

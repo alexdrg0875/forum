@@ -34,4 +34,8 @@ return [
         'secret' => env('SPARKPOST_SECRET'),
     ],
 
+    'recaptcha' => [
+        'secret' => env('RECAPTCHA_SECRET')
+    ]
+
 ];
