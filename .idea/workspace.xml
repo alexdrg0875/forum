@@ -59,13 +59,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LockThreadsTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/LockThreadsTest.php">
+      <file leaf-file-name="CreateThreadsTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="160">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
-                <element signature="e#33#52#0#PHP" expanded="true" />
+                <element signature="e#33#50#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,14 +114,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadsController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThreadsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="77" selection-end-column="9" />
+            <state relative-caret-position="400">
+              <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
               <folding>
-                <element signature="e#40#55#0#PHP" expanded="true" />
-                <marker date="1577730244821" expanded="true" signature="3259:3260" ph="..." />
+                <element signature="e#40#64#0#PHP" expanded="true" />
+                <marker date="1577738254043" expanded="true" signature="2947:2948" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Recaptcha.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Rules/Recaptcha.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#29#70#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,9 +141,7 @@
       </file>
       <file leaf-file-name="ThreadFilters.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Filters/ThreadFilters.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-287" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -186,7 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/RecordsActivity.php" />
         <option value="$PROJECT_DIR$/app/RecordsVisits.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" />
         <option value="$PROJECT_DIR$/resources/views/threads/_list.blade.php" />
@@ -202,7 +211,6 @@
         <option value="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ReplyTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BestRepliesController.php" />
         <option value="$PROJECT_DIR$/database/seeds/ThreadsTableSeeder.php" />
@@ -236,7 +244,9 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/threads/create.blade.php" />
         <option value="$PROJECT_DIR$/config/services.php" />
+        <option value="$PROJECT_DIR$/app/Rules/Recaptcha.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" />
       </list>
     </option>
   </component>
@@ -522,7 +532,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;kerne&#9;null&#9;null&#10;kernel&#9;null&#9;null&#10;adminis&#9;null&#9;null&#10;model&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/factories/ModelFactory.php&#10;user&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;threadco&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;repliesControlle&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;repliesc&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/BestRepliesController.php&#10;threa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;crea&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2019_11_13_153644_create_threads_table.php&#10;create_&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2019_11_13_153644_create_threads_table.php&#10;app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;create&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2019_11_13_153644_create_threads_table.php&#10;reply&#9;null&#9;null&#10;bestRepl&#9;null&#9;null&#10;replies&#9;null&#9;null&#10;we&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;plead&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Mail/PleaseConfirmYourEmail.php&#10;eventser&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/EventServiceProvider.php&#10;regis&#9;null&#9;null&#10;service&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AuthServiceProvider.php&#10;flash&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/components/flash.vue&#10;middle&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Middleware&#10;fac&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/factories/UserFactory.php&#10;threads&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;migrat&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations&#10;thread&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;thre&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;threadsc&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;index&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/index.blade.php&#10;userAv&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/Api/UserAvatarController.php&#10;auth&#9;null&#9;null&#10;profiles&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/profiles&#10;userA&#9;null&#9;null&#10;usersco&#9;null&#9;null&#10;repl&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Unit/ReplyTest.php&#10;eventservic&#9;null&#9;null&#10;replie&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;user.&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;status codes&#9;null&#9;null&#10;status c&#9;null&#9;null&#10;apser&#9;null&#9;null&#10;r/app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/app.js&#10;nav&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/nav.blade.php&#10;databaseNo&#9;null&#9;null&#10;еркуфвыги&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/ThreadSubscription.php&#10;thread\sho&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;controll&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadSubscriptionsController.php&#10;threadsu&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="recap&#9;null&#9;null&#10;web&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;kerne&#9;null&#9;null&#10;kernel&#9;null&#9;null&#10;adminis&#9;null&#9;null&#10;model&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/factories/ModelFactory.php&#10;user&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;threadco&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;repliesControlle&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;repliesc&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/BestRepliesController.php&#10;threa&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;crea&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2019_11_13_153644_create_threads_table.php&#10;create_&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2019_11_13_153644_create_threads_table.php&#10;app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/app.blade.php&#10;create&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations/2019_11_13_153644_create_threads_table.php&#10;reply&#9;null&#9;null&#10;bestRepl&#9;null&#9;null&#10;replies&#9;null&#9;null&#10;we&#9;FILE&#9;file://D:/OSPanel/domains/forum/routes/web.php&#10;plead&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Mail/PleaseConfirmYourEmail.php&#10;eventser&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/EventServiceProvider.php&#10;regis&#9;null&#9;null&#10;service&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Providers/AuthServiceProvider.php&#10;flash&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/components/flash.vue&#10;middle&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Middleware&#10;fac&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/factories/UserFactory.php&#10;threads&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;migrat&#9;FILE&#9;file://D:/OSPanel/domains/forum/database/migrations&#10;thread&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;thre&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Thread.php&#10;threadsc&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadsController.php&#10;index&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/index.blade.php&#10;userAv&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/Api/UserAvatarController.php&#10;auth&#9;null&#9;null&#10;profiles&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/profiles&#10;userA&#9;null&#9;null&#10;usersco&#9;null&#9;null&#10;repl&#9;FILE&#9;file://D:/OSPanel/domains/forum/tests/Unit/ReplyTest.php&#10;eventservic&#9;null&#9;null&#10;replie&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/RepliesController.php&#10;user.&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/User.php&#10;status codes&#9;null&#9;null&#10;status c&#9;null&#9;null&#10;apser&#9;null&#9;null&#10;r/app&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/js/app.js&#10;nav&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/layouts/nav.blade.php&#10;databaseNo&#9;null&#9;null&#10;еркуфвыги&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/ThreadSubscription.php&#10;thread\sho&#9;FILE&#9;file://D:/OSPanel/domains/forum/resources/views/threads/show.blade.php&#10;controll&#9;FILE&#9;file://D:/OSPanel/domains/forum/app/Http/Controllers/ThreadSubscriptionsController.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MariaDB&#10;MySQL" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit 6+" />
@@ -557,35 +567,35 @@
     </option>
   </component>
   <component name="RunManager" selected="PHPUnit.tests">
-    <configuration name="LockThreadsTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\LockThreadsTest" file="$PROJECT_DIR$/tests/Feature/LockThreadsTest.php" scope="Class" />
+    <configuration name="CreateThreadsTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\CreateThreadsTest" file="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" scope="Class" />
     </configuration>
-    <configuration name="LockThreadsTest.administrators_can_unlock_threads" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\LockThreadsTest" file="$PROJECT_DIR$/tests/Feature/LockThreadsTest.php" method="administrators_can_unlock_threads" scope="Method" />
+    <configuration name="CreateThreadsTest.a_thread_required_a_title" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\CreateThreadsTest" file="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" method="a_thread_required_a_title" scope="Method" />
     </configuration>
-    <configuration name="LockThreadsTest.once_locked_a_thread_may_not_receive_new_replies" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\LockThreadsTest" file="$PROJECT_DIR$/tests/Feature/LockThreadsTest.php" method="once_locked_a_thread_may_not_receive_new_replies" scope="Method" />
+    <configuration name="CreateThreadsTest.a_thread_requires_a_unique_slug" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\CreateThreadsTest" file="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" method="a_thread_requires_a_unique_slug" scope="Method" />
     </configuration>
-    <configuration name="ThreadTest.a_thread_may_be_locked" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\ThreadTest" file="$PROJECT_DIR$/tests/Unit/ThreadTest.php" method="a_thread_may_be_locked" scope="Method" />
+    <configuration name="CreateThreadsTest.a_user_can_create_new_forum_threads" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\CreateThreadsTest" file="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" method="a_user_can_create_new_forum_threads" scope="Method" />
     </configuration>
     <configuration name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$/tests" />
     </configuration>
     <list>
       <item itemvalue="PHPUnit.tests" />
-      <item itemvalue="PHPUnit.LockThreadsTest" />
-      <item itemvalue="PHPUnit.LockThreadsTest.administrators_can_unlock_threads" />
-      <item itemvalue="PHPUnit.LockThreadsTest.once_locked_a_thread_may_not_receive_new_replies" />
-      <item itemvalue="PHPUnit.ThreadTest.a_thread_may_be_locked" />
+      <item itemvalue="PHPUnit.CreateThreadsTest" />
+      <item itemvalue="PHPUnit.CreateThreadsTest.a_thread_required_a_title" />
+      <item itemvalue="PHPUnit.CreateThreadsTest.a_thread_requires_a_unique_slug" />
+      <item itemvalue="PHPUnit.CreateThreadsTest.a_user_can_create_new_forum_threads" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="PHPUnit.tests" />
-        <item itemvalue="PHPUnit.LockThreadsTest" />
-        <item itemvalue="PHPUnit.ThreadTest.a_thread_may_be_locked" />
-        <item itemvalue="PHPUnit.LockThreadsTest.once_locked_a_thread_may_not_receive_new_replies" />
-        <item itemvalue="PHPUnit.LockThreadsTest.administrators_can_unlock_threads" />
+        <item itemvalue="PHPUnit.CreateThreadsTest.a_user_can_create_new_forum_threads" />
+        <item itemvalue="PHPUnit.CreateThreadsTest" />
+        <item itemvalue="PHPUnit.CreateThreadsTest.a_thread_requires_a_unique_slug" />
+        <item itemvalue="PHPUnit.CreateThreadsTest.a_thread_required_a_title" />
       </list>
     </recent_temporary>
   </component>
@@ -611,44 +621,44 @@
       <workItem from="1576147977415" duration="9448000" />
       <workItem from="1576247973971" duration="35182000" />
       <workItem from="1576859984907" duration="68694000" />
-      <workItem from="1577435507169" duration="63925000" />
+      <workItem from="1577435507169" duration="69768000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="tests - 2019.12.30 at 19h 16m 13s.xml">
+    <history-entry file="CreateThreadsTest - 2019.12.30 at 23h 13m 51s.xml">
+      <configuration name="CreateThreadsTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CreateThreadsTest_a_user_can_create_new_forum_threads - 2019.12.30 at 23h 17m 50s.xml">
+      <configuration name="CreateThreadsTest.a_user_can_create_new_forum_threads" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CreateThreadsTest_a_user_can_create_new_forum_threads - 2019.12.30 at 23h 19m 53s.xml">
+      <configuration name="CreateThreadsTest.a_user_can_create_new_forum_threads" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CreateThreadsTest_a_user_can_create_new_forum_threads - 2019.12.30 at 23h 32m 15s.xml">
+      <configuration name="CreateThreadsTest.a_user_can_create_new_forum_threads" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2019.12.30 at 23h 32m 25s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2019.12.30 at 19h 18m 03s.xml">
+    <history-entry file="tests - 2019.12.30 at 23h 33m 15s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="LockThreadsTest_once_locked_a_thread_may_not_receive_new_replies - 2019.12.30 at 19h 18m 29s.xml">
-      <configuration name="LockThreadsTest.once_locked_a_thread_may_not_receive_new_replies" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="tests - 2019.12.30 at 19h 18m 40s.xml">
+    <history-entry file="tests - 2019.12.30 at 23h 33m 25s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ThreadTest_a_thread_may_be_locked - 2019.12.30 at 19h 18m 58s.xml">
-      <configuration name="ThreadTest.a_thread_may_be_locked" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="LockThreadsTest - 2019.12.30 at 19h 47m 45s.xml">
-      <configuration name="LockThreadsTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="LockThreadsTest - 2019.12.30 at 19h 56m 18s.xml">
-      <configuration name="LockThreadsTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="tests - 2019.12.30 at 19h 56m 28s.xml">
+    <history-entry file="tests - 2019.12.30 at 23h 35m 29s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2019.12.30 at 20h 31m 22s.xml">
+    <history-entry file="tests - 2019.12.30 at 23h 37m 37s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests - 2019.12.30 at 21h 23m 48s.xml">
+    <history-entry file="tests - 2019.12.30 at 23h 37m 47s.xml">
       <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="499858000" />
+    <option name="totallyTimeSpent" value="505701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,22 +705,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="47" />
+      <option name="time" value="51" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Trending.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1697" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/session.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3337" />
@@ -963,13 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/ThreadTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2153">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -990,21 +981,11 @@
     <entry file="file://$PROJECT_DIR$/app/Filters/Filters.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100" />
-      </provider>
-    </entry>
     <entry file="das://dedc0260-f685-41c1-8156-409dcebccb87/schema/forum/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Filters/ThreadFilters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
@@ -1035,13 +1016,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Filters/ThreadFilters.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/ThreadTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2153">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Rules/Recaptcha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#29#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="77" selection-end-column="9" />
+        <state relative-caret-position="400">
+          <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
           <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-            <marker date="1577730244821" expanded="true" signature="3259:3260" ph="..." />
+            <element signature="e#40#64#0#PHP" expanded="true" />
+            <marker date="1577738254043" expanded="true" signature="2947:2948" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#33#50#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
