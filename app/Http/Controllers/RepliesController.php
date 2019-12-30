@@ -31,6 +31,9 @@ class RepliesController extends Controller
     {
 
 //            request()->validate(['body' => 'required|spamfree']); // relocate to CreatePostForm
+        if($thread->locked) {
+            return response('Thread is locked', 422);
+        }
 
         return $thread->addReply([
             'body' => request('body'),

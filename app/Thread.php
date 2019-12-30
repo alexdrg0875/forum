@@ -74,6 +74,11 @@ class Thread extends Model
         return $reply;
     }
 
+    public function lock ()
+    {
+        $this->update(['locked' => true]);
+    }
+
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
