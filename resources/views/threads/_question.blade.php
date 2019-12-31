@@ -2,7 +2,7 @@
 <div class="card" v-if="editing">
     <div class="card-header">
         <div class="level">
-            <input class="form-control" type="text" value="{{ $thread->title }}">
+            <input class="form-control" type="text" v-model="form.title">
 
         </div>
     </div>
@@ -14,14 +14,14 @@
             </div>
         @endif
         <div class="form-group">
-            <textarea class="form-control" name="" id="" rows="10">{{ $thread->body }}</textarea>
+            <textarea class="form-control" name="" id="" rows="10" v-model="form.body"></textarea>
         </div>
     </div>
     <div class="card-footer">
         <div class="level">
             {{--<button class="btn btn-xs btn-outline-secondary level-item" @click="editing = true">Edit</button>--}}
-            <button class="btn btn-xs btn-outline-primary level-item" @click="">Update</button>
-            <button class="btn btn-xs btn-outline-secondary level-item" @click="editing = false">Cancel</button>
+            <button class="btn btn-xs btn-outline-primary level-item" @click="update">Update</button>
+            <button class="btn btn-xs btn-outline-secondary level-item" @click="resetForm">Cancel</button>
 
             @can('update', $thread)
                 <form action="{{ $thread->path() }}" method="POST" class="ml-auto">
@@ -46,21 +46,20 @@
                  height="25">
 
             <span class="flex">
-                <a href="{{ route('profile', $thread->creator) }}">{{ $thread->creator->name }}</a> posted:{{ $thread->title }}
+                <a href="{{ route('profile', $thread->creator) }}">{{ $thread->creator->name }}</a> posted: <span v-text="title"></span>
             </span>
 
         </div>
     </div>
 
-    <div class="card-body">
+    <div class="card-body" v-text="body">
         @if (session('status'))
             <div class="alert alert-success" role="alert">
                 {{ session('status') }}
             </div>
         @endif
-        {{ $thread->body }}
     </div>
-    <div class="card-footer">
+    <div class="card-footer" v-if="authorize('owns', thread)">
         <button class="btn btn-xs btn-outline-secondary" @click="editing = true">Edit</button>
     </div>
 </div>
