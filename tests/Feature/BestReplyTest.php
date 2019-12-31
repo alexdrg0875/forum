@@ -2,13 +2,12 @@
 
 namespace Tests\Feature;
 
-use Illuminate\Support\Facades\DB;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class BestReplyTest extends TestCase
 {
-    use DatabaseMigrations;
+    use RefreshDatabase;
 
     /** @test */
 

@@ -5,13 +5,13 @@ namespace Tests\Feature;
 use App\Mail\PleaseConfirmYourEmail;
 use App\User;
 use Illuminate\Auth\Events\Registered;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Mail;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class RegistrationTest extends TestCase
 {
-    use DatabaseMigrations;
+    use RefreshDatabase;
 
     /** @test */
 

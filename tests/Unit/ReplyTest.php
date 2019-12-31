@@ -3,14 +3,13 @@
 namespace Tests\Unit;
 
 use Carbon\Carbon;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class ReplyTest extends TestCase
 {
-    use DatabaseMigrations;
+    use RefreshDatabase;
+
     /** @test */
     public function it_has_an_owner()
     {

@@ -2,13 +2,13 @@
 
 namespace Tests\Feature;
 
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Notifications\DatabaseNotification;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class NotificationsTest extends TestCase
 {
-    use DatabaseMigrations;
+    use RefreshDatabase;
 
     public function setUp(): void // It's give opportunity to apply methods to all functions bellow
     {

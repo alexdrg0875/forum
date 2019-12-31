@@ -2,14 +2,13 @@
 
 namespace Tests\Feature;
 
-use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class ParticipateInThreadsTest extends TestCase
 {
-    use DatabaseMigrations;
+    use RefreshDatabase;
+
 
     /** @test */
     public function unauthenticated_users_may_not_add_replies()

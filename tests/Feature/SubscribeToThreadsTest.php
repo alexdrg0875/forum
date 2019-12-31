@@ -2,12 +2,12 @@
 
 namespace Tests\Feature;
 
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class SubscribeToThreadsTest extends TestCase
 {
-    use DatabaseMigrations;
+    use RefreshDatabase;
 
     /** @test */
 

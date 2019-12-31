@@ -4,12 +4,12 @@ namespace Tests\Unit;
 
 use App\Activity;
 use Carbon\Carbon;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class ActivityTest extends TestCase
 {
-    use DatabaseMigrations;
+    use RefreshDatabase;
 
     /** @test */
 

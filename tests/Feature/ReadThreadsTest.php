@@ -4,12 +4,11 @@ namespace Tests\Feature;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Throwable;
 
 class ReadThreadsTest extends TestCase
 {
-    use DatabaseMigrations;
+    use RefreshDatabase;
+
 
     public function setUp(): void
     {

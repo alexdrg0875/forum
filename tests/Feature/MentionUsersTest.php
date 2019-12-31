@@ -2,12 +2,12 @@
 
 namespace Tests\Feature;
 
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class MentionUsersTest extends TestCase
 {
-    use DatabaseMigrations;
+    use RefreshDatabase;
 
     /** @test */
 
