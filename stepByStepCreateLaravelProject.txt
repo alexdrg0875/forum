@@ -138,6 +138,11 @@ php artisan vendor:publish --provider="Laravel\Scout\ScoutServiceProvider"
 composer require algolia/algoliasearch-client-php:^2.2
 get free trial account from agolia and add registration information to .env file
 php artisan scout:import 'App\Thread'
+php artisan make:test SearchTest
+php artisan make:controller SearchController
+add to phpunit.xml         <server name="SCOUT_DRIVER" value="null"/> to make working test without using agolia who make increase time
+
+
 
 
 
