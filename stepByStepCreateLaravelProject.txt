@@ -141,7 +141,7 @@ php artisan scout:import 'App\Thread'
 php artisan make:test SearchTest
 php artisan make:controller SearchController
 add to phpunit.xml         <server name="SCOUT_DRIVER" value="null"/> to make working test without using agolia who make increase time
-
+npm install vue-instantsearch
 
 
 
