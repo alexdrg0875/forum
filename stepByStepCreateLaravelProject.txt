@@ -132,6 +132,16 @@ php artisan make:rule Recaptcha
 
 php artisan make:test UpdateThreadsTest
 
+install laravel Scout for search 
+composer require laravel/scout
+php artisan vendor:publish --provider="Laravel\Scout\ScoutServiceProvider"
+composer require algolia/algoliasearch-client-php:^2.2
+get free trial account from agolia and add registration information to .env file
+php artisan scout:import 'App\Thread'
+
+
+
+
 
 
  
